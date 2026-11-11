@@ -1,0 +1,36 @@
+VER 3 0000000000000006 "eat" "134400"
+/click MultiBar5Button5
+/click MultiBar5Button6
+END
+VER 3 0000000000000009 "enchant" "134400"
+/run ProfessionsFrame.CraftingPage.CreateButton:Click()
+/run StaticPopup1Button1:Click()
+END
+VER 3 0000000000000003 "form" "134400"
+#showtooltip
+/cast [mod:ctrl] Bear Form; [mod:shift] Cat Form; [nomod,form:3] Cat Form; [nomod,form:1] Bear Form; [nomod,swimming] Aquatic Form; [nomod] Travel Form
+/click [form:3] MultiBar5Button5
+END
+VER 3 0000000000000001 "m" "134400"
+/macro
+END
+VER 3 0000000000000007 "ns+ht" "134400"
+#showtooltip
+/cast Nature's Swiftness
+/cast [@mouseover,help,nodead,exists] [] Healing Touch
+END
+VER 3 0000000000000005 "RS_MACRO" "667492"
+/targetexact Ghost Howl
+END
+VER 3 0000000000000002 "seals" "134400"
+#showtooltip
+/cast [mod:shift] Seal of Righteousness; Seal of Fury
+END
+VER 3 0000000000000008 "sm" "134400"
+#showtooltip swiftmend
+/cast [@mouseover,exists,help][@player] swiftmend
+END
+VER 3 0000000000000004 "target" "874579"
+/target Bru
+/tm 4
+END

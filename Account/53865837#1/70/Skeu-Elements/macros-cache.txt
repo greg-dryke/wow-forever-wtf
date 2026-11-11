@@ -1,0 +1,4 @@
+VER 3 0100000000000001 "es" "134400"
+#showtooltip
+/cast [@mouseover,enemy,nodead] Earth Shock; Earth Shock
+END

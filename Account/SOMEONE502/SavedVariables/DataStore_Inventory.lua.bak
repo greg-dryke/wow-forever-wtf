@@ -1,0 +1,129 @@
+
+DataStore_Inventory_Characters = {
+{
+["EquipmentInfo"] = 0,
+["Inventory"] = {
+[18] = "|cnIQ1:|Hitem:2508::::::::1:1485::75:::::::|h[Old Blunderbuss]|h|r",
+[16] = "|cnIQ1:|Hitem:37::::::::1:1485::75:::::::|h[Worn Axe]|h|r",
+[7] = "|cnIQ0:|Hitem:6126::::::::1:1485::75:::::::|h[Trapper's Pants]|h|r",
+[4] = "|cnIQ1:|Hitem:127::::::::1:1485::75:::::::|h[Trapper's Shirt]|h|r",
+},
+["overallAIL"] = 0,
+["lastUpdate"] = 1794384899,
+},
+{
+["Inventory"] = {
+nil,
+nil,
+"|cnIQ3:|Hitem:5404::::::::28:1484::1::1:28:5254:::::|h[Serpent's Shoulders]|h|r",
+"|cnIQ1:|Hitem:5107::::::::28:1484:::::::::|h[Deckhand's Shirt]|h|r",
+"|cnIQ3:|Hitem:270043::::::::28:1484::11:::::::|h[Dreamer's Chestguard]|h|r",
+"|cnIQ2:|Hitem:16659::::::::28:1484::11:::::::|h[Deftkin Belt]|h|r",
+"|cnIQ2:|Hitem:5327::::::::28:1484::11:::::::|h[Greasy Tinker's Pants]|h|r",
+"|cnIQ2:|Hitem:11853::::::::28:1484::11:::::::|h[Rambling Boots]|h|r",
+"|cnIQ3:|Hitem:3230::::::::28:1484::1::1:28:5249:::::|h[Black Wolf Bracers]|h|r",
+"|cnIQ2:|Hitem:270008::::::::28:1484::11:::::::|h[Heat Resistant Mitts]|h|r",
+"|cnIQ3:|Hitem:273839::::::::28:1484::1::1:28:5237:::::|h[Spiked Shell Band]|h|r",
+"|cnIQ3:|Hitem:6414::::::::28:1484::11:::::::|h[Seal of Sylvanas]|h|r",
+nil,
+nil,
+"|cnIQ2:|Hitem:16658::::::::28:1484::11:::::::|h[Wildhunter Cloak]|h|r",
+"|cnIQ3:|Hitem:270018::::::::28:1484::11:::::::|h[Hammerbone]|h|r",
+[18] = "|cnIQ2:|Hitem:263411::::::::28:1484::11:::::::|h[Idol of Shifting Tides]|h|r",
+},
+["lastUpdate"] = 1794382206,
+["averageItemLvl"] = 18.8125,
+["overallAIL"] = 20.3125,
+["EquipmentInfo"] = 0,
+},
+{
+["Inventory"] = {
+nil,
+nil,
+nil,
+"|cnIQ1:|Hitem:53::::::::10:1487::75:::::::|h[Neophyte's Shirt]|h|r",
+"|cnIQ2:|Hitem:6242:24:::::::10:1487::::::::Player-6929-01157CBA:|h[Blue Linen Robe]|h|r",
+"|cnIQ1:|Hitem:11848::::::::10:1487::11:::::::|h[Flax Belt]|h|r",
+"|cnIQ2:|Hitem:10047::::::::10:1487::::::::Player-6929-00FE2700:|h[Simple Kilt]|h|r",
+"|cnIQ2:|Hitem:3307::::::::10:1487:::::::::|h[Barbaric Cloth Boots]|h|r",
+"|cnIQ2:|Hitem:6543:66:::::::10:1487::1:1:12720:1:28:5256:::::|h[Willow Bracers of the Owl]|h|r",
+"|cnIQ0:|Hitem:1377::::::::10:1487:::::::::|h[Frayed Gloves]|h|r",
+nil,
+nil,
+nil,
+nil,
+"|cnIQ2:|Hitem:2580:783:::::::10:1487::::::::Player-6929-01012E22:|h[Reinforced Linen Cape]|h|r",
+"|cnIQ1:|Hitem:3269::::::::10:1487::11:::::::|h[Forsaken Maul]|h|r",
+[18] = "|cnIQ2:|Hitem:11287::::::::10:1487::::::::Player-6929-005CEC09:|h[Lesser Magic Wand]|h|r",
+},
+["lastUpdate"] = 1794385954,
+["averageItemLvl"] = 5.6875,
+["overallAIL"] = 5.6875,
+["EquipmentInfo"] = 0,
+},
+{
+["Inventory"] = {
+nil,
+nil,
+nil,
+"|cnIQ1:|Hitem:6125::::::::11:1486::75:::::::|h[Brawler's Harness]|h|r",
+"|cnIQ0:|Hitem:2648::::::::11:1486:::::::::|h[Loose Chain Vest]|h|r",
+"|cnIQ0:|Hitem:1418::::::::11:1486:::::::::|h[Worn Leather Belt]|h|r",
+"|cnIQ1:|Hitem:5941::::::::11:1486::11:::::::|h[Brass Scale Pants]|h|r",
+"|cnIQ2:|Hitem:281285::::::::11:1486::11:::::::|h[Finscale Soles]|h|r",
+"|cnIQ0:|Hitem:2643::::::::11:1486:::::::::|h[Loose Chain Bracers]|h|r",
+"|cnIQ1:|Hitem:6063::::::::11:1486::11:::::::|h[Cold Steel Gauntlets]|h|r",
+nil,
+nil,
+nil,
+nil,
+"|cnIQ1:|Hitem:3833::::::::11:1486::11:::::::|h[Adept's Cloak]|h|r",
+"|cnIQ2:|Hitem:246165::::::::11:1486::11:::::::|h[Driftwood Smasher]|h|r",
+},
+["lastUpdate"] = 1794386085,
+["averageItemLvl"] = 4,
+["overallAIL"] = 4,
+["EquipmentInfo"] = 0,
+},
+}
+DataStore_Inventory_Guilds = {
+{
+["Members"] = {
+["Skeuomorph Cow"] = {
+["averageItemLvl"] = 18,
+},
+["Moomeowroar Cowcatbear"] = {
+["averageItemLvl"] = 10,
+},
+},
+},
+}
+DataStore_Inventory_SetInfo = {
+}
+DataStore_Inventory_CollectedSets = {
+}
+DataStore_Inventory_AppearancesCounters = {
+["DRUID"] = {
+[15] = 36952,
+[22] = 57404,
+[19] = 24692,
+[16] = 53338,
+[23] = 73821,
+},
+["PRIEST"] = {
+[19] = 20596,
+[15] = 41049,
+[12] = 28721,
+},
+["PALADIN"] = {
+[18] = 77940,
+[19] = 20596,
+[15] = 36952,
+[22] = 57404,
+},
+}
+DataStore_Inventory_Options = {
+["BroadcastAiL"] = true,
+["AutoClearGuildInventory"] = false,
+["EquipmentRequestNotification"] = false,
+}

@@ -1,0 +1,8 @@
+Blizzard_ObjectiveTracker: enabled
+Blizzard_CompactRaidFrames: enabled
+Details: disabled
+OPie_Classic: disabled
+ForeverForge: disabled
+ForeverForge_Auction: disabled
+Bagnon_Bank: enabled
+ItemRackOptions: enabled

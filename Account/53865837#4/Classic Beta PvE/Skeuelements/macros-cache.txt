@@ -1,0 +1,20 @@
+VER 3 0000000001000001 "ch" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,noharm,exists,nodead]Chain Heal; Chain Heal
+END
+VER 3 0000000001000005 "es" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,noharm,exists,nodead]Earth Shield; Earth Shield
+END
+VER 3 0000000001000002 "hw" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,noharm,exists,nodead]Healing Wave; Healing Wave
+END
+VER 3 0000000001000003 "lhw" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,noharm,exists,nodead]Lesser Healing Wave; Lesser Healing Wave
+END
+VER 3 0000000001000004 "riptide" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,noharm,exists,nodead]Riptide; Riptide
+END

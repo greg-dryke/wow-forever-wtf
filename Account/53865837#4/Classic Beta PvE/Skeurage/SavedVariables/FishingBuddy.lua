@@ -1,0 +1,48 @@
+
+FishingBuddy_Player = {
+	["MinimapData"] = {
+		["minimapPos"] = 188.321337912101,
+		["hide"] = true,
+	},
+	["Settings"] = {
+		["OutfitManager"] = "OutfitDisplayFrame",
+		["TotalTimeFishing"] = 22670.4299999992,
+		["SpecialBobbers"] = -1,
+	},
+	["WasWearing"] = {
+	},
+	["WatcherLocation"] = {
+		["grp_point"] = "RIGHT",
+		["solo_y"] = 187.00048828125,
+		["solo_x"] = -213.000732421875,
+		["solo_point"] = "RIGHT",
+		["grp_x"] = -236.199462890625,
+		["solo_scale"] = 1,
+		["raid_point"] = "RIGHT",
+		["raid_x"] = -433.50341796875,
+		["grp_scale"] = 1,
+		["grp_y"] = -48.8002014160156,
+		["raid_y"] = -26.5437164306641,
+		["raid_scale"] = 1,
+	},
+	["Version"] = 19500,
+}
+FBODF_PlayerInfo = {
+	["Outfit"] = {
+		["MainHandSlot"] = {
+			["item"] = "12225:0",
+			["used"] = true,
+			["name"] = "Blump Family Fishing Pole",
+			["link"] = "|cffffffff|Hitem:12225::::::::32:::11::::|h[Blump Family Fishing Pole]|h|r",
+			["missing"] = true,
+			["slotid"] = 1,
+			["color"] = "ffffffff",
+			["texture"] = 132932,
+		},
+		["SecondaryHandSlot"] = {
+			["used"] = true,
+			["forced"] = true,
+			["empty"] = true,
+		},
+	},
+}

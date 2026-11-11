@@ -1,0 +1,550 @@
+VER 3 0000000000000093 "aaSHARDS" "INV_MISC_QUESTIONMARK"
+/raid Send me shards.
+/party Send me shards.
+END
+VER 3 0000000000000089 "adi" "132091"
+/script print('adding function')
+/script function aae(s, i) local _, _, id = string.find(i, "item:(%d*):"); print('item id: ', id); AdiBags.modules.FilterOverride.AssignItems('self', s, 'Equipment', id) end
+END
+VER 3 000000000000008B "adiworking" "INV_MISC_QUESTIONMARK"
+/script function aae(s, i) AdiBags.modules.FilterOverride.AssignItems('self', s, 'Equipment', i) end
+END
+VER 3 0000000000000051 "bear" "INV_Misc_QuestionMark"
+#showtooltip Bear Form
+/cast !Bear Form
+END
+VER 3 0000000000000011 "bearps" "INV_MISC_QUESTIONMARK"
+#showtooltip Dire Bear Form
+/use [form:1] Dire Bear Form; [form:2] Aquatic Form; [form:3] Cat Form; [form:4] Travel Form
+/use Dire Bear Form
+END
+VER 3 0000000000000064 "bomb" "134400"
+/use [@cursor] Rough Copper Bomb
+END
+VER 3 0000000000000004 "bosses" "132098"
+/target fallen
+/target azshir
+/target iron
+/target jed
+END
+VER 3 0000000000000065 "bubble" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [@mouseover,help]Blessing of Protection; Blessing of Protection
+END
+VER 3 0000000000000030 "cancelall" "INV_MISC_QUESTIONMARK"
+/say test
+/cancelaura Arcane Brilliance
+/cancelaura Greater Blessing of Wisdom
+/cancelaura Regrowth
+/cancelaura Rejuvenation
+/cancelaura Prayer of Spirit
+/cancelaura Renew
+/cancelaura Arcane Intellect
+/cancelaura Greater Blessing of Light
+END
+VER 3 0000000000000097 "cancelall2" "134400"
+/cancelaura Shadow Protection
+/cancelaura Thorns
+/click BT4Button45
+END
+VER 3 0000000000000052 "cat" "INV_Misc_QuestionMark"
+#showtooltip
+/dismount
+/use [form:2,mod] Aquatic Form; [form:4,mod] Travel Form; [form:5,mod] Flight Form
+/use [mod:shift] Cat Form; [mod:ctrl] Dire Bear Form; [swimming] Aquatic Form; [flyable,nocombat]Swift Flight Form; [noswimming] Travel Form;
+END
+VER 3 000000000000001B "caths" "INV_MISC_QUESTIONMARK"
+#showtooltip [mod] Lesser Stoneshield Potion; Major Healthstone
+/use [form:1]cat form;[form:2]aquatic form;[form:4]travel form
+/use Major Healthstone
+/use !Cat Form
+END
+VER 3 0000000000000066 "cons" "INV_Misc_QuestionMark"
+#showtooltip
+/cast Consecration
+/startattack
+END
+VER 3 0000000000000026 "delete" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/run if GetInventoryItemID("player",16) == 9449 then PickupInventoryItem(16); DeleteCursorItem() end;
+/eq Blessed Qiraji War Hammer
+/eq Tome of Knowledge
+END
+VER 3 000000000000008F "dtps" "INV_MISC_QUESTIONMARK"
+/run  damageActor = Details:GetActor ("current", DETAILS_ATTRIBUTE_DAMAGE, Details.playername)
+/run taken= damageActor.damage_taken
+/run c = Details:GetCurrentCombat()
+/run cT = c:GetCombatTime()
+/run print("taken: ", taken, "dtps: ", taken/cT)
+END
+VER 3 000000000000004E "dummy" "INV_MISC_QUESTIONMARK"
+#showtooltip Advanced Target Dummy
+/use [@cursor] Advanced Target Dummy
+/tar Advanced Target Dummy
+/cast [help] Blessing of Protection(Rank 3)
+END
+VER 3 0000000000000053 "ee" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [mod:shift] Hibernate; [form:1] Challenging Roar; [form:3] Track Humanoids;  Hibernate
+END
+VER 3 000000000000007D "encounter" "INV_MISC_QUESTIONMARK"
+/script print("In an encounter?", IsEncounterInProgress())
+END
+VER 3 0000000000000098 "exit" "INV_Misc_QuestionMark"
+#showtooltip
+/use [form:1] Dire Bear Form; [form:2] Aquatic Form; [form:3] Cat Form; [form:4] Travel Form
+/use [mod:shift] Cat Form; [mod:ctrl] Dire Bear Form;
+END
+VER 3 000000000000003A "extrabar" "INV_MISC_QUESTIONMARK"
+/run if (UnitClass("player") ~= "Druid") then if BT4Bar7:IsVisible() then BT4Bar7:Hide() else BT4Bar7:Show() end end
+/run if (UnitClass("player") == "Druid") then if BT4Bar10:IsVisible() then BT4Bar10:Hide() else BT4Bar10:Show() end end
+END
+VER 3 000000000000000A "fap" "INV_MISC_QUESTIONMARK"
+#showtooltip free action potion
+/use [form:1]dire bear form;[form:2]aquatic form;[form:4]travel form
+/use free action potion
+/use !Dire Bear Form
+END
+VER 3 0000000000000012 "FFF" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Faerie Fire (Feral)
+/cast Maul
+END
+VER 3 000000000000003D "follow" "135978"
+/follow
+END
+VER 3 000000000000003F "food" "INV_MISC_QUESTIONMARK"
+#showtoolip
+/use Smoked Talbuk Venison
+/use Mag'har Grainbread
+END
+VER 3 000000000000003E "freedom" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [mod:shift]Blessing of Freedom; Flash of Light
+END
+VER 3 0000000000000099 "gcd" "134400"
+/script gcd=GetSpellCooldown("Dire Bear Form"); print(gcd)
+/script print(gcd)
+END
+VER 3 000000000000009A "golem" "132099"
+/target Patchwork Horror
+END
+VER 3 0000000000000055 "Growl" "INV_Misc_QuestionMark"
+#showtooltip Growl
+/cancelaura Greater Blessing of Salvation
+/cast [target=mouseover, exists,harm,nodead] Growl; Growl
+END
+VER 3 000000000000009B "hammer" "132281"
+/equip Blessed Qiraji
+/equip Tome of
+/equip Jin'do's Judgement
+END
+VER 3 0000000000000067 "hammerfear" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [mod:shift]Turn Evil; Hammer of Wrath
+END
+VER 3 000000000000008D "heals" "132100"
+/run print(UnitGetIncomingHeals("player"))
+END
+VER 3 0000000000000038 "helm" "135993"
+/run ShowHelm(not ShowingHelm())
+END
+VER 3 000000000000009C "hs" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [mod:ctrl]Holy Shield(Rank 1); Holy Shield
+/startattack
+/cancelaura Blessing of Salvation
+/cancelaura Greater Blessing of Salvation
+/startattack
+END
+VER 3 0000000000000036 "hs" "INV_MISC_QUESTIONMARK"
+#showtooltip [mod:shift] Demonic Rune; Charged Crystal Focus
+/use item:22105
+/use item:22104
+/use item:22103
+/use [mod:shift] Demonic Rune; Charged Crystal Focus
+END
+VER 3 000000000000008E "hs" "INV_Misc_QuestionMark"
+#showtooltip [mod:shift] Demonic Rune; item:22105
+/use item:22105
+/use item:22104
+/use item:22103
+END
+VER 3 0000000000000056 "ht" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [form:1]Enrage; [mod:shift] Healing Touch(Rank 4); [mod:ctrl] Healing Touch(Rank 7); Healing Touch
+END
+VER 3 0000000000000057 "ht-rage" "INV_Misc_QuestionMark"
+#showtooltip
+/cancelaura Enrage
+/cast [form:1]Enrage; Healing Touch(Rank 7)
+END
+VER 3 0000000000000003 "hugz" "132091"
+/purr
+END
+VER 3 0000000000000058 "hurricane" "INV_Misc_QuestionMark"
+#showtooltip Hurricane
+/cast [@cursor] Hurricane
+END
+VER 3 000000000000003C "initiate" "132094"
+/target Crimson Initiate
+END
+VER 3 0000000000000041 "IRONSHIELD" "INV_MISC_QUESTIONMARK"
+/run if GetSpellCooldown(768)+GetItemCooldown(10646)>0 or UnitPower("player",0)<GetSpellPowerCost(768)[1].cost then SetCVar("autoUnshift",0) end;
+/use Ironshield Potion
+/cast [noform:1]!Dire Bear Form
+/run SetCVar("autoUnshift",1)
+END
+VER 3 0000000000000069 "jow" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [mod]Seal of Wisdom; Seal of Light
+END
+VER 3 000000000000006A "judgeret" "INV_Misc_QuestionMark"
+#showtooltip
+/cast Judgement
+/cast [nomod]Seal of Command(Rank 1); [mod:shift]Seal of the Martyr; [mod:ctrl]Seal of Command
+/startattack
+END
+VER 3 0000000000000010 "lag" "INV_MISC_QUESTIONMARK"
+/run print("Current Latency: "..select(4,GetNetStats()).."ms.")
+END
+VER 3 0000000000000028 "lip" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/changeactionbar [form:1]2;[form:3]3;[form:4]4;
+/use [form:1]Dire Bear Form;[form:3]Cat Form;[form:4]Travel Form
+/use Hourglass Sand
+/use [bar:2]Dire Bear Form;[bar:3]Cat Form;[bar:4]Travel Form
+/changeactionbar 1 
+END
+VER 3 0000000000000006 "lip roar" "INV_MISC_QUESTIONMARK"
+#showtooltip Challenging Roar
+/cast [form:1] Challenging Roar
+/cast [form:1] Dire Bear Form
+/use Limited Invulnerability Potion
+END
+VER 3 000000000000002D "m" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cancelaura Greater Blessing of Salvation
+/startattack
+/cast Maul
+END
+VER 3 0000000000000001 "macro" "132094"
+/macro
+END
+VER 3 0000000000000059 "mb5" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [noform] Lifebloom; [@mouseover, harm, form:1][@target, harm, form:1]Swipe; [form:3]Ferocious Bite
+/startattack [@mouseover, harm, form:1/3][@target, harm, form:1/3]
+END
+VER 3 000000000000005A "moon" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [mod:ctrl] Moonfire(Rank 1); [mod:alt]Insect Swarm; Moonfire
+END
+VER 3 000000000000006B "mount" "132241"
+#showtoolip
+/cast [mod:shift] Swift Green Mechanostrider
+/cast [mod:ctrl] Summon Charger(Summon)
+/cast [flyable] Turbo-Charged Flying Machine Control
+/cast [noflyable] Swift Green Mechanostrider
+END
+VER 3 0000000000000033 "nade" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@cursor, nomod] Thorium Grenade; [@cursor, mod:ctrl] Dense Dynamite
+/stopcasting [mod:shift]
+END
+VER 3 0000000000000045 "nades" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [mod:shift]Frost Grenade; Dense Dynamite
+END
+VER 3 000000000000002F "p" "INV_MISC_QUESTIONMARK"
+#showtoolip
+/cast [mod]Remove Curse;Abolish Poison
+END
+VER 3 0000000000000047 "p1" "INV_MISC_QUESTIONMARK"
+/click PetActionButton1
+END
+VER 3 0000000000000048 "p2" "INV_MISC_QUESTIONMARK"
+/target [nodead] Mo'arg Tormentor
+/click PetActionButton2
+END
+VER 3 0000000000000049 "p3" "INV_MISC_QUESTIONMARK"
+/click PetActionButton3
+END
+VER 3 000000000000004A "p4" "INV_MISC_QUESTIONMARK"
+/click PetActionButton4
+END
+VER 3 000000000000004B "p5" "INV_MISC_QUESTIONMARK"
+/click PetActionButton5
+END
+VER 3 000000000000004C "p6" "INV_MISC_QUESTIONMARK"
+/click PetActionButton7
+END
+VER 3 0000000000000086 "pallysapper" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [mod:shift] Goblin Sapper Charge; Super Sapper Charge
+END
+VER 3 0000000000000037 "pot" "INV_MISC_QUESTIONMARK"
+#showtooltip [mod:shift] item:32903; [nomod]item:32904
+/use [mod:shift] item:32903; item:32904
+/use  [mod:shift] Mana Potion Injector; Healing Potion Injector
+/use [mod:shift] Super Mana Potion; Super Healing Potion
+END
+VER 3 000000000000006C "pot" "INV_Misc_QuestionMark"
+#showtooltip
+/use [mod:shift] Major Mana Potion; Greater Mana Potion
+END
+VER 3 0000000000000078 "pot" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [mod:shift]Healing Potion Injector; Ironshield Potion
+END
+VER 3 000000000000005B "pot" "132115"
+/run if GetSpellCooldown(768)+GetItemCooldown(10646)>0 or UnitPower("player",0)<GetSpellPowerCost(768)[1].cost then SetCVar("autoUnshift",0) end;
+/cast [noform:1]!Cat Form
+/run SetCVar("autoUnshift",1)
+END
+VER 3 0000000000000080 "pot" "135999"
+/use  item:32903
+/use Blue Ogre Brew Special
+/use Mana Potion Injector
+/use Super Mana Potion
+END
+VER 3 0000000000000043 "qq" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [mod:shift] Barkskin; [noform:1/3] Nature's Swiftness; Barkskin
+END
+VER 3 000000000000000E "quest" "INV_MISC_QUESTIONMARK"
+/script print(IsQuestFlaggedCompleted(4442))
+END
+VER 3 000000000000005C "r" "INV_Misc_QuestionMark"
+#showtooltip
+/cast Rejuvenation
+/equip Staff of Dark Mending
+END
+VER 3 000000000000002C "ravage" "INV_MISC_QUESTIONMARK"
+#showtooltip Ravage
+/use [mod]Earthstrike
+/use [mod]Vanquished Tentacle of C'Thun
+/cast Ravage
+END
+VER 3 0000000000000031 "ref" "INV_MISC_QUESTIONMARK"
+/click cancelall
+END
+VER 3 0000000000000095 "regrowth" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Regrowth
+/equip Crystalheart Pulse-Staff
+END
+VER 3 000000000000006D "retseal" "INV_Misc_QuestionMark"
+#showtooltip
+/cast  [mod:ctrl]Seal of the Crusader; [mod:altshift]Seal of Justice; [mod:shift]Seal of Command; Seal of the Martyr
+/startattack
+END
+VER 3 000000000000006E "rf" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [mod:shift]Righteous Fury; Flash of Light
+END
+VER 3 000000000000009D "rg" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Regrowth
+/equip Staff of Dark Mending
+END
+VER 3 000000000000005D "rr" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [mod] Rejuvenation(Rank 7); Rejuvenation
+END
+VER 3 0000000000000087 "SAND" "INV_Misc_QuestionMark"
+#showtooltip Hourglass Sand
+/use [form:1]dire bear form;[form:2]aquatic form;[form:4]travel form
+/use Heavy Runecloth Bandage
+/use !Dire Bear Form
+END
+VER 3 000000000000002B "sapper" "INV_MISC_QUESTIONMARK"
+#showtooltip Goblin Sapper Charge
+#showtooltip Dire Bear Form
+/use [form:1] Dire Bear Form; [form:2] Aquatic Form; [form:3] Cat Form; [form:4] Travel Form
+/use Goblin Sapper Charge
+/use Dire Bear Form
+END
+VER 3 000000000000006F "seal" "INV_Misc_QuestionMark"
+#showtooltip
+/cast  [mod:ctrl]Seal of the Crusader; [mod:altshift]Seal of Justice; [mod:shift]Seal of Vengeance; Seal of Righteousness
+/startattack
+END
+VER 3 0000000000000070 "shield" "INV_Misc_QuestionMark"
+#showtooltip
+/cancelaura Divine Shield
+/cancelaura Blessing of Protection
+/cast Divine Shield
+END
+VER 3 0000000000000071 "sor" "INV_Misc_QuestionMark"
+#showtooltip
+/cast  Judgement
+/cast [nomod]Seal of Righteousness; [mod:shift]Seal of Wisdom; [mod:ctrl]Seal of Vengeance
+/startattack
+END
+VER 3 0000000000000040 "speed" "INV_MISC_QUESTIONMARK"
+/run print(string.format("Current speed: %d%%", GetUnitSpeed("player") / 7 * 100))
+END
+VER 3 0000000000000044 "stone" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use item:22105:0:0:0:0:0:0:0
+/use item:22104:0:0:0:0:0:0:0
+/use item:22103:0:0:0:0:0:0:0
+END
+VER 3 000000000000000D "STOPATTACK" "132223"
+/stopattack
+END
+VER 3 0000000000000094 "STOPATTACK" "INV_MISC_QUESTIONMARK"
+/stopattack
+END
+VER 3 000000000000005E "swipe" "INV_Misc_QuestionMark"
+#showtooltip Swipe
+/cancelaura Greater Blessing of Salvation
+/cast [@mouseover, harm, form:1][@target, harm, form:1] Swipe
+/startattack [@mouseover, harm, form:1][@target, harm, form:1]
+END
+VER 3 0000000000000027 "tag" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cleartarget
+/targetenemy [noexists][dead]
+/cast Moonfire(Rank 1)
+END
+VER 3 0000000000000002 "target" "132090"
+/target devil
+/target ironhide de
+/target tyrant
+/target andre
+/target bal
+/target lo'
+/target huri
+/target jed
+/target digmaster shovel
+/target cobalt mage
+/target Ethereum Jailor
+END
+VER 3 0000000000000092 "TERON" "132100"
+/cast [target=pettarget] Spirit Volley
+/cast [target=pettarget] Spirit Chains
+/cast [target=pettarget] Spirit Lance
+END
+VER 3 0000000000000079 "testThreat" "INV_MISC_QUESTIONMARK"
+/run for i= 1, GetNumGroupMembers() do   local _,_,threatpct,_,_ = UnitDetailedThreatSituation("raid"..i, "target");     ChatFrame1:AddMessage('You are ' .. tostring(threatpct) .. '% towards aggro.'); end
+END
+VER 3 000000000000004D "totfol" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@targetoftarget]Flash of Light
+END
+VER 3 0000000000000008 "trade" "INV_MISC_QUESTIONMARK"
+/trade
+END
+VER 3 0000000000000082 "tranq" "INV_Misc_QuestionMark"
+#showtooltip Tranquility
+/cast Barkskin
+/cast Tranquility
+END
+VER 3 0000000000000034 "trink1" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use 13
+END
+VER 3 0000000000000035 "trink2" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use 14
+END
+VER 3 0000000000000083 "trinket" "INV_Misc_QuestionMark"
+#showtooltip
+/use 13
+/use 14
+END
+VER 3 0000000000000020 "turnin" "INV_MISC_QUESTIONMARK"
+/script SelectGossipAvailableQuest(2)
+/script CompleteQuest()
+/script GetQuestReward()
+END
+VER 3 000000000000003B "turninquest" "INV_MISC_QUESTIONMARK"
+/script SelectGossipAvailableQuest(1) 
+/script CompleteQuest() 
+/script GetQuestReward() 
+END
+VER 3 000000000000007C "VASHJ" "136193"
+#showtooltip Tainted Core
+/use Tainted Core
+/y <------- TAINTED CORE TO: %t ! ! !
+/s <------- TAINTED CORE TO: %t ! ! !
+/script SendChatMessage("!!! YOU HAVE THE CORE !!!", "WHISPER", nil, UnitName("target"));
+END
+VER 3 0000000000000072 "veng" "INV_Misc_QuestionMark"
+#showtooltip
+/cast  Judgement
+/cast [nomod]Seal of Vengeance; [mod:shift]Seal of Light; [mod:ctrl]Seal of Righteousness
+/startattack
+END
+VER 3 0000000000000091 "veras" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/target Veras
+/cast Feral Charge
+END
+VER 3 0000000000000061 "VuhDoDCShieldData" "Ability_Repair"
+P1PM1SH1IH1MR[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1PH[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END
+VER 3 0000000000000062 "VuhDoDCShieldData" "Ability_Repair"
+P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1PM[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END
+VER 3 0000000000000096 "VuhDoDCShieldData" "132281"
+R5IH1PT1DT1DH1LR1DH2HR2RM2SH[x]2HR3MR3DH3LR3MR3SH4MR4LR4MR4SH4DH5DH5LR5SH5DH[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]2PH[x][x][x][x]0__[x]0__[x][x][x]0__[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END
+VER 3 0000000000000075 "VuhDoDCShieldData" "Ability_Repair"
+P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1PH[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END
+VER 3 000000000000008C "VuhDoDCShieldData" "132281"
+P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1DH[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]0__
+END
+VER 3 0000000000000076 "VuhDoDCShieldData" "Ability_Repair"
+P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1PM[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END
+VER 3 0000000000000088 "VuhDoDCShieldData" "Ability_Repair"
+P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1DH[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END
+VER 3 0000000000000060 "VuhDoDCShieldData" "Ability_Repair"
+P1IH[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1SM[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END
+VER 3 0000000000000084 "VuhDoDCShieldData" "Ability_Repair"
+R1DH[x]1PM1IH1MR2HR2SH2DH2HR3RM3SH4LR4LR4DH4SH5PM5SH5MR[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1PH[x][x][x][x][x][x][x][x]0__[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END
+VER 3 0000000000000077 "VuhDoDCShieldNames" "Ability_Repair"
+NJøtDev[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Ske[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END
+VER 3 0000000000000073 "VuhDoDCShieldNames" "Ability_Repair"
+N[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Ske[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END
+VER 3 000000000000007B "VuhDoDCShieldNames" "Ability_Repair"
+N[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Tur[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END
+VER 3 0000000000000063 "VuhDoDCShieldNames" "Ability_Repair"
+NToi[x]DevNelSer[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Ske[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END
+VER 3 000000000000009E "VuhDoDCShieldNames" "132281"
+N[x]FenDamGusTry[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Ske[x][x]Rav[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END
+VER 3 000000000000009F "VuhDoDCShieldNames" "132281"
+NSèsBruYub[x]WhiAloElpTiyXiaDem[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Ske[x][x][x][x][x]ko[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END
+VER 3 0000000000000090 "vv" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [form:1] Frenzied Regeneration; [form:3] Cower;  Tranquility
+END
+VER 3 0000000000000005 "wand" "136046"
+/castsequence reset=1 !Shoot, null
+END
+VER 3 0000000000000085 "water" "136141"
+/way 54.8 38.8 Patch of elemental water
+/way 60.1 39.7 Patch of elemental water
+/way 55.6 51.1 Patch of elemental water
+/way 79.2 54.4 Patch of elemental water 
+/way 66.3 68.5 Patch of elemental water
+/way 74.6 72.6 Patch of elemental water
+END
+VER 3 0000000000000009 "zoom" "136232"
+/console cameraDistanceMaxZoomFactor 4
+/script C_CVar.SetCVar("nameplateMaxDistance", 41)
+/console spellEffectLevel 1
+END

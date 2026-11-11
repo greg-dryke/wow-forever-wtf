@@ -1,0 +1,6 @@
+Auctionator: disabled
+FishingBuddy: enabled
+Blizzard_ObjectiveTracker: enabled
+Blizzard_CompactRaidFrames: enabled
+*** ForceTaint_Strong ***: disabled
+Plater: enabled

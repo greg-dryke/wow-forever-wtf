@@ -1,0 +1,44 @@
+VER 3 0100000000000008 "ff" "134400"
+#showtooltip
+/cast [@mouseover,harm,nodead] Faerie Fire; Faerie Fire
+END
+VER 3 010000000000000B "growl" "134400"
+#showtooltip
+/cast Growl
+/cast [@mouseover,harm,nodead] Growl
+END
+VER 3 0100000000000003 "ht" "134400"
+#showtooltip
+/cast [@mouseover,help,nodead,exists] [] Healing Touch
+END
+VER 3 0100000000000004 "ht1" "134400"
+#showtooltip
+/cast [@mouseover,help,nodead,exists] [] Healing Touch(Rank 1)
+END
+VER 3 0100000000000009 "mangle" "134400"
+#showtooltip
+/cast Primal Bite
+END
+VER 3 0100000000000007 "mf" "134400"
+#showtooltip
+/cast [@mouseover,harm,nodead] Moonfire; Moonfire
+END
+VER 3 0100000000000005 "ng" "134400"
+#showtooltip
+/cast Nature's Grasp
+/cast Nature's Grasp(Rank 1)
+END
+VER 3 0100000000000001 "rg" "134400"
+#showtooltip
+/cast [@mouseover,help,nodead,exists] [] Regrowth; Regrowth
+END
+VER 3 0100000000000002 "rj" "134400"
+#showtooltip
+/cast [@mouseover,help,nodead,exists] [] Rejuvenation
+END
+VER 3 010000000000000A "swipe" "134400"
+#showtooltip
+/cast [@mouseover,harm,nodead] Swipe; Swipe
+END
+VER 3 0100000000000006 "w" "134400"
+END

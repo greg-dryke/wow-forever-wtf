@@ -1,0 +1,69 @@
+
+GearQuestForeverDB = {
+["dismissedItems"] = {
+},
+["ui"] = {
+["hiddenProfessions"] = {
+},
+["portraitGuideSeen"] = true,
+["hiddenVendors"] = {
+},
+["portraitGuideVersion"] = 8,
+["unsourcedDefaulted"] = true,
+["portraitGuideIntro"] = true,
+["hiddenDungeons"] = {
+},
+["collapsedSlots"] = {
+["Finger"] = false,
+["MainHand"] = false,
+["Neck"] = false,
+["Shoulder"] = false,
+["Back"] = false,
+},
+["hiddenTrashDungeons"] = {
+},
+["hiddenSources"] = {
+["unsourced"] = true,
+},
+},
+["dismissedCompleted"] = {
+},
+["settings"] = {
+["completedClaimedBy"] = "Player-6929-00D6FCC8",
+["milestones"] = {
+["ringSlot1"] = true,
+["specSwitch"] = true,
+["ringSlot2"] = true,
+},
+["minimapAngle"] = -166.8283777680224,
+["preview"] = {
+["enabled"] = false,
+["faction"] = "Horde",
+["level"] = 11,
+["class"] = "PALADIN",
+["loginCharacterKey"] = "Player-6929-01872571",
+},
+["completedItemBackup"] = {
+},
+["weaponFilter"] = {
+["play:DRUID:feral"] = {
+},
+["play:HUNTER:beast_mastery"] = {
+},
+["play:PRIEST:shadow"] = {
+},
+["play:PALADIN:retribution"] = {
+},
+},
+},
+["obtainedItems"] = {
+},
+["customSpecs"] = {
+},
+["hunts"] = {
+},
+["crafted"] = {
+},
+["obtained"] = {
+},
+}

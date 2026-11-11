@@ -1,0 +1,2 @@
+
+ForeverForgeAuctionCharDB = nil

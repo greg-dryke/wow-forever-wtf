@@ -1,0 +1,19 @@
+
+PlaterDBChr = {
+["spellRangeCheckRangeFriendly"] = {
+[11] = 40,
+},
+["buffsBanned"] = {
+},
+["first_run3"] = {
+["Player-6929-00D6FCC8"] = true,
+},
+["minimap"] = {
+["minimapPos"] = 207.6975128015677,
+},
+["debuffsBanned"] = {
+},
+["spellRangeCheckRangeEnemy"] = {
+[11] = 30,
+},
+}

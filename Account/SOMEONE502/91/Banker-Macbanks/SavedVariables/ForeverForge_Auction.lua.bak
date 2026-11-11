@@ -1,0 +1,17 @@
+
+ForeverForgeAuctionCharDB = {
+["browse"] = {
+["suffixes"] = {
+},
+["options"] = {
+},
+["qualities"] = {
+},
+},
+["ownedPrices"] = {
+},
+["lastTab"] = "browse",
+["soldSeen"] = {
+},
+["lastUI"] = "blizzard",
+}

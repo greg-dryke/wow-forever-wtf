@@ -1,0 +1,12 @@
+
+ForeverForgeCharDB = {
+["adoptedLegacy"] = true,
+["mirrorKey"] = "Skeu Prayer-ClassicBetaPvE2",
+["settings"] = {
+},
+["fullName"] = "Skeu Prayer",
+["scope"] = "all",
+["inventoryKey"] = "Skeu Prayer-ClassicBetaPvE2",
+["upgradeStatsMoved"] = true,
+["ledgerGen"] = 5,
+}

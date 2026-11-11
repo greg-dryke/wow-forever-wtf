@@ -1,0 +1,599 @@
+
+LootReserveCharacterSave = {
+	["Client"] = {
+		["CharacterFavorites"] = {
+		},
+	},
+	["Server"] = {
+		["RollHistory"] = {
+		},
+		["RecentLoot"] = {
+			{
+				["searchName"] = "ASTRALAANBRACER",
+				["id"] = 24652,
+				["info"] = {
+					"Astralaan Bracer", -- [1]
+					"|cff1eff00|Hitem:24652::::::::68:::::::::|h[Astralaan Bracer]|h|r", -- [2]
+					2, -- [3]
+					105, -- [4]
+					65, -- [5]
+					"Armor", -- [6]
+					"Cloth", -- [7]
+					1, -- [8]
+					"INVTYPE_WRIST", -- [9]
+					132606, -- [10]
+					13571, -- [11]
+					4, -- [12]
+					1, -- [13]
+					2, -- [14]
+					254, -- [15]
+					[17] = false,
+				},
+			}, -- [1]
+			{
+				["searchName"] = "DUROTANSBATTLEHARNESS",
+				["id"] = 27427,
+				["info"] = {
+					"Durotan's Battle Harness", -- [1]
+					"|cff0070dd|Hitem:27427::::::::68:::::::::|h[Durotan's Battle Harness]|h|r", -- [2]
+					3, -- [3]
+					103, -- [4]
+					66, -- [5]
+					"Armor", -- [6]
+					"Plate", -- [7]
+					1, -- [8]
+					"INVTYPE_CHEST", -- [9]
+					132634, -- [10]
+					53987, -- [11]
+					4, -- [12]
+					4, -- [13]
+					1, -- [14]
+					254, -- [15]
+					[17] = false,
+				},
+			}, -- [2]
+			{
+				["searchName"] = "BOULDERFISTARMOR",
+				["id"] = 24984,
+				["info"] = {
+					"Boulderfist Armor", -- [1]
+					"|cff1eff00|Hitem:24984::::::::68:::::::::|h[Boulderfist Armor]|h|r", -- [2]
+					2, -- [3]
+					105, -- [4]
+					65, -- [5]
+					"Armor", -- [6]
+					"Plate", -- [7]
+					1, -- [8]
+					"INVTYPE_CHEST", -- [9]
+					132743, -- [10]
+					46285, -- [11]
+					4, -- [12]
+					4, -- [13]
+					2, -- [14]
+					254, -- [15]
+					[17] = false,
+				},
+			}, -- [3]
+			{
+				["searchName"] = "WINDWALKERSSASH",
+				["id"] = 28495,
+				["info"] = {
+					"Windwalker's Sash", -- [1]
+					"|cff1eff00|Hitem:28495::::::::68:::::::::|h[Windwalker's Sash]|h|r", -- [2]
+					2, -- [3]
+					99, -- [4]
+					63, -- [5]
+					"Armor", -- [6]
+					"Cloth", -- [7]
+					1, -- [8]
+					"INVTYPE_WAIST", -- [9]
+					132504, -- [10]
+					13258, -- [11]
+					4, -- [12]
+					1, -- [13]
+					2, -- [14]
+					254, -- [15]
+					[17] = false,
+				},
+			}, -- [4]
+			{
+				["searchName"] = "MARSHCREEPERBRACELETS",
+				["id"] = 24861,
+				["info"] = {
+					"Marshcreeper Bracelets", -- [1]
+					"|cff1eff00|Hitem:24861::::::::68:::::::::|h[Marshcreeper Bracelets]|h|r", -- [2]
+					2, -- [3]
+					99, -- [4]
+					63, -- [5]
+					"Armor", -- [6]
+					"Mail", -- [7]
+					1, -- [8]
+					"INVTYPE_WRIST", -- [9]
+					132603, -- [10]
+					19524, -- [11]
+					4, -- [12]
+					3, -- [13]
+					2, -- [14]
+					254, -- [15]
+					[17] = false,
+				},
+			}, -- [5]
+			{
+				["searchName"] = "LIGHTNINGDAGGER",
+				["id"] = 25300,
+				["info"] = {
+					"Lightning Dagger", -- [1]
+					"|cff1eff00|Hitem:25300::::::::69:::::::::|h[Lightning Dagger]|h|r", -- [2]
+					2, -- [3]
+					93, -- [4]
+					61, -- [5]
+					"Weapon", -- [6]
+					"Daggers", -- [7]
+					1, -- [8]
+					"INVTYPE_WEAPONMAINHAND", -- [9]
+					135667, -- [10]
+					58654, -- [11]
+					2, -- [12]
+					15, -- [13]
+					2, -- [14]
+					254, -- [15]
+					[17] = false,
+				},
+			}, -- [6]
+			{
+				["searchName"] = "PERMAFROSTDAGGER",
+				["id"] = 25306,
+				["info"] = {
+					"Permafrost Dagger", -- [1]
+					"|cff1eff00|Hitem:25306::::::::69:::::::::|h[Permafrost Dagger]|h|r", -- [2]
+					2, -- [3]
+					111, -- [4]
+					67, -- [5]
+					"Weapon", -- [6]
+					"Daggers", -- [7]
+					1, -- [8]
+					"INVTYPE_WEAPONMAINHAND", -- [9]
+					135275, -- [10]
+					70314, -- [11]
+					2, -- [12]
+					15, -- [13]
+					2, -- [14]
+					254, -- [15]
+					[17] = false,
+				},
+			}, -- [7]
+			{
+				["searchName"] = "LAZULIRING",
+				["id"] = 25053,
+				["info"] = {
+					"Lazuli Ring", -- [1]
+					"|cff1eff00|Hitem:25053::::::::69:::::::::|h[Lazuli Ring]|h|r", -- [2]
+					2, -- [3]
+					108, -- [4]
+					66, -- [5]
+					"Armor", -- [6]
+					"Miscellaneous", -- [7]
+					1, -- [8]
+					"INVTYPE_FINGER", -- [9]
+					133364, -- [10]
+					34629, -- [11]
+					4, -- [12]
+					0, -- [13]
+					2, -- [14]
+					254, -- [15]
+					[17] = false,
+				},
+			}, -- [8]
+			{
+				["searchName"] = "DREADHAWKSGIRDLE",
+				["id"] = 28497,
+				["info"] = {
+					"Dreadhawk's Girdle", -- [1]
+					"|cff1eff00|Hitem:28497::::::::70:::::::::|h[Dreadhawk's Girdle]|h|r", -- [2]
+					2, -- [3]
+					99, -- [4]
+					63, -- [5]
+					"Armor", -- [6]
+					"Mail", -- [7]
+					1, -- [8]
+					"INVTYPE_WAIST", -- [9]
+					132515, -- [10]
+					18615, -- [11]
+					4, -- [12]
+					3, -- [13]
+					2, -- [14]
+					254, -- [15]
+					[17] = false,
+				},
+			}, -- [9]
+			{
+				["searchName"] = "LESSERPLANARESSENCE",
+				["id"] = 22447,
+				["info"] = {
+					"Lesser Planar Essence", -- [1]
+					"|cff1eff00|Hitem:22447::::::::70:::::::::|h[Lesser Planar Essence]|h|r", -- [2]
+					2, -- [3]
+					60, -- [4]
+					0, -- [5]
+					"Trade Goods", -- [6]
+					"Enchanting", -- [7]
+					10, -- [8]
+					"", -- [9]
+					132861, -- [10]
+					0, -- [11]
+					7, -- [12]
+					12, -- [13]
+					0, -- [14]
+					254, -- [15]
+					[17] = false,
+				},
+			}, -- [10]
+			{
+				["searchName"] = "BONESHREDDERSHOULDERGUARDS",
+				["id"] = 24779,
+				["info"] = {
+					"Boneshredder Shoulderguards", -- [1]
+					"|cff1eff00|Hitem:24779::::::::70:::::::::|h[Boneshredder Shoulderguards]|h|r", -- [2]
+					2, -- [3]
+					111, -- [4]
+					67, -- [5]
+					"Armor", -- [6]
+					"Leather", -- [7]
+					1, -- [8]
+					"INVTYPE_SHOULDER", -- [9]
+					135034, -- [10]
+					26165, -- [11]
+					4, -- [12]
+					2, -- [13]
+					2, -- [14]
+					254, -- [15]
+					[17] = false,
+				},
+			}, -- [11]
+			{
+				["searchName"] = "GRIMSCYTHE",
+				["id"] = 25236,
+				["info"] = {
+					"Grim Scythe", -- [1]
+					"|cff1eff00|Hitem:25236::::::::70:::::::::|h[Grim Scythe]|h|r", -- [2]
+					2, -- [3]
+					111, -- [4]
+					67, -- [5]
+					"Weapon", -- [6]
+					"Polearms", -- [7]
+					1, -- [8]
+					"INVTYPE_2HWEAPON", -- [9]
+					135369, -- [10]
+					91203, -- [11]
+					2, -- [12]
+					6, -- [13]
+					2, -- [14]
+					254, -- [15]
+					[17] = false,
+				},
+			}, -- [12]
+			{
+				["searchName"] = "LARGEPRISMATICSHARD",
+				["id"] = 22449,
+				["info"] = {
+					"Large Prismatic Shard", -- [1]
+					"|cff0070dd|Hitem:22449::::::::70:::::::::|h[Large Prismatic Shard]|h|r", -- [2]
+					3, -- [3]
+					70, -- [4]
+					0, -- [5]
+					"Trade Goods", -- [6]
+					"Enchanting", -- [7]
+					20, -- [8]
+					"", -- [9]
+					132881, -- [10]
+					0, -- [11]
+					7, -- [12]
+					12, -- [13]
+					0, -- [14]
+					254, -- [15]
+					[17] = false,
+				},
+			}, -- [13]
+			{
+				["searchName"] = "KHORIUMORE",
+				["id"] = 23426,
+				["info"] = {
+					"Khorium Ore", -- [1]
+					"|cff1eff00|Hitem:23426::::::::70:::::::::|h[Khorium Ore]|h|r", -- [2]
+					2, -- [3]
+					70, -- [4]
+					0, -- [5]
+					"Trade Goods", -- [6]
+					"Metal & Stone", -- [7]
+					20, -- [8]
+					"", -- [9]
+					134573, -- [10]
+					2500, -- [11]
+					7, -- [12]
+					7, -- [13]
+					0, -- [14]
+					254, -- [15]
+					[17] = false,
+				},
+			}, -- [14]
+			{
+				["searchName"] = "EARTHMANTLEHANDWRAPS",
+				["id"] = 27793,
+				["info"] = {
+					"Earth Mantle Handwraps", -- [1]
+					"|cff0070dd|Hitem:27793::::::::70:::::::::|h[Earth Mantle Handwraps]|h|r", -- [2]
+					3, -- [3]
+					112, -- [4]
+					68, -- [5]
+					"Armor", -- [6]
+					"Mail", -- [7]
+					1, -- [8]
+					"INVTYPE_HAND", -- [9]
+					132937, -- [10]
+					26298, -- [11]
+					4, -- [12]
+					3, -- [13]
+					1, -- [14]
+					254, -- [15]
+					[17] = false,
+				},
+			}, -- [15]
+			{
+				["searchName"] = "FORMULAENCHANTBRACERFORTITUDE",
+				["id"] = 22533,
+				["info"] = {
+					"Formula: Enchant Bracer - Fortitude", -- [1]
+					"|cff1eff00|Hitem:22533::::::::70:::::::::|h[Formula: Enchant Bracer - Fortitude]|h|r", -- [2]
+					2, -- [3]
+					70, -- [4]
+					0, -- [5]
+					"Recipe", -- [6]
+					"Enchanting", -- [7]
+					1, -- [8]
+					"", -- [9]
+					134327, -- [10]
+					15000, -- [11]
+					9, -- [12]
+					8, -- [13]
+					1, -- [14]
+					254, -- [15]
+					[17] = false,
+				},
+			}, -- [16]
+			{
+				["searchName"] = "AXEOFSHATTEREDDREAMS",
+				["id"] = 34794,
+				["info"] = {
+					"Axe of Shattered Dreams", -- [1]
+					"|cff0070dd|Hitem:34794::::::::70:::::::::|h[Axe of Shattered Dreams]|h|r", -- [2]
+					3, -- [3]
+					115, -- [4]
+					70, -- [5]
+					"Weapon", -- [6]
+					"Two-Handed Axes", -- [7]
+					1, -- [8]
+					"INVTYPE_2HWEAPON", -- [9]
+					132456, -- [10]
+					104889, -- [11]
+					2, -- [12]
+					1, -- [13]
+					1, -- [14]
+					254, -- [15]
+					[17] = false,
+				},
+			}, -- [17]
+			{
+				["searchName"] = "RINGOFATHOUSANDMARKS",
+				["id"] = 28757,
+				["info"] = {
+					"Ring of a Thousand Marks", -- [1]
+					"|cffa335ee|Hitem:28757::::::::70:::::::::|h[Ring of a Thousand Marks]|h|r", -- [2]
+					4, -- [3]
+					125, -- [4]
+					70, -- [5]
+					"Armor", -- [6]
+					"Miscellaneous", -- [7]
+					1, -- [8]
+					"INVTYPE_FINGER", -- [9]
+					133427, -- [10]
+					113642, -- [11]
+					4, -- [12]
+					0, -- [13]
+					1, -- [14]
+					254, -- [15]
+					[17] = false,
+				},
+			}, -- [18]
+			{
+				["searchName"] = "GREATERPLANARESSENCE",
+				["skillRequired"] = false,
+				["id"] = 22446,
+				["startsQuest"] = false,
+				["unique"] = false,
+				["info"] = {
+					"Greater Planar Essence", -- [1]
+					"|cff1eff00|Hitem:22446::::::::70:::::::::|h[Greater Planar Essence]|h|r", -- [2]
+					2, -- [3]
+					65, -- [4]
+					0, -- [5]
+					"Trade Goods", -- [6]
+					"Enchanting", -- [7]
+					10, -- [8]
+					"", -- [9]
+					132860, -- [10]
+					0, -- [11]
+					7, -- [12]
+					12, -- [13]
+					0, -- [14]
+					254, -- [15]
+					nil, -- [16]
+					false, -- [17]
+				},
+				["classesAllowed"] = true,
+			}, -- [19]
+			{
+				["searchName"] = "DRAGONHAWKBELT",
+				["skillRequired"] = false,
+				["id"] = 24798,
+				["startsQuest"] = false,
+				["unique"] = false,
+				["info"] = {
+					"Dragonhawk Belt", -- [1]
+					"|cff1eff00|Hitem:24798::::::::70:::::::::|h[Dragonhawk Belt]|h|r", -- [2]
+					2, -- [3]
+					120, -- [4]
+					70, -- [5]
+					"Armor", -- [6]
+					"Leather", -- [7]
+					1, -- [8]
+					"INVTYPE_WAIST", -- [9]
+					132491, -- [10]
+					18652, -- [11]
+					4, -- [12]
+					2, -- [13]
+					2, -- [14]
+					254, -- [15]
+					nil, -- [16]
+					false, -- [17]
+				},
+				["classesAllowed"] = true,
+			}, -- [20]
+			{
+				["searchName"] = "BADGEOFJUSTICE",
+				["skillRequired"] = false,
+				["id"] = 29434,
+				["startsQuest"] = false,
+				["unique"] = false,
+				["info"] = {
+					"Badge of Justice", -- [1]
+					"|cffa335ee|Hitem:29434::::::::70:::::::::|h[Badge of Justice]|h|r", -- [2]
+					4, -- [3]
+					70, -- [4]
+					70, -- [5]
+					"Miscellaneous", -- [6]
+					"Junk", -- [7]
+					200, -- [8]
+					"", -- [9]
+					135884, -- [10]
+					0, -- [11]
+					15, -- [12]
+					0, -- [13]
+					1, -- [14]
+					254, -- [15]
+					nil, -- [16]
+					false, -- [17]
+				},
+				["classesAllowed"] = true,
+			}, -- [21]
+			{
+				["searchName"] = "LATROSSHIFTINGSWORD",
+				["skillRequired"] = false,
+				["id"] = 28189,
+				["startsQuest"] = false,
+				["unique"] = false,
+				["info"] = {
+					"Latro's Shifting Sword", -- [1]
+					"|cff0070dd|Hitem:28189::::::::70:::::::::|h[Latro's Shifting Sword]|h|r", -- [2]
+					3, -- [3]
+					115, -- [4]
+					70, -- [5]
+					"Weapon", -- [6]
+					"One-Handed Swords", -- [7]
+					1, -- [8]
+					"INVTYPE_WEAPON", -- [9]
+					135386, -- [10]
+					88785, -- [11]
+					2, -- [12]
+					7, -- [13]
+					1, -- [14]
+					254, -- [15]
+					737, -- [16]
+					false, -- [17]
+				},
+				["classesAllowed"] = true,
+			}, -- [22]
+			{
+				["searchName"] = "LARGEBRILLIANTSHARD",
+				["skillRequired"] = false,
+				["id"] = 14344,
+				["startsQuest"] = false,
+				["unique"] = false,
+				["info"] = {
+					"Large Brilliant Shard", -- [1]
+					"|cff0070dd|Hitem:14344::::::::70:::::::::|h[Large Brilliant Shard]|h|r", -- [2]
+					3, -- [3]
+					55, -- [4]
+					0, -- [5]
+					"Trade Goods", -- [6]
+					"Enchanting", -- [7]
+					20, -- [8]
+					"", -- [9]
+					132873, -- [10]
+					0, -- [11]
+					7, -- [12]
+					12, -- [13]
+					0, -- [14]
+					254, -- [15]
+					nil, -- [16]
+					false, -- [17]
+				},
+				["classesAllowed"] = true,
+			}, -- [23]
+			{
+				["searchName"] = "SMALLPRISMATICSHARD",
+				["skillRequired"] = false,
+				["id"] = 22448,
+				["startsQuest"] = false,
+				["unique"] = false,
+				["info"] = {
+					"Small Prismatic Shard", -- [1]
+					"|cff0070dd|Hitem:22448::::::::70:::::::::|h[Small Prismatic Shard]|h|r", -- [2]
+					3, -- [3]
+					65, -- [4]
+					0, -- [5]
+					"Trade Goods", -- [6]
+					"Enchanting", -- [7]
+					20, -- [8]
+					"", -- [9]
+					132882, -- [10]
+					0, -- [11]
+					7, -- [12]
+					12, -- [13]
+					0, -- [14]
+					254, -- [15]
+					nil, -- [16]
+					false, -- [17]
+				},
+				["classesAllowed"] = true,
+			}, -- [24]
+			{
+				["searchName"] = "KHORIUMLOCKBOX",
+				["skillRequired"] = false,
+				["id"] = 31952,
+				["startsQuest"] = false,
+				["unique"] = false,
+				["info"] = {
+					"Khorium Lockbox", -- [1]
+					"|cff1eff00|Hitem:31952::::::::70:::::::::|h[Khorium Lockbox]|h|r", -- [2]
+					2, -- [3]
+					68, -- [4]
+					0, -- [5]
+					"Miscellaneous", -- [6]
+					"Junk", -- [7]
+					1, -- [8]
+					"", -- [9]
+					134344, -- [10]
+					750, -- [11]
+					15, -- [12]
+					0, -- [13]
+					0, -- [14]
+					254, -- [15]
+					nil, -- [16]
+					false, -- [17]
+				},
+				["classesAllowed"] = true,
+			}, -- [25]
+		},
+		["Version"] = "2022-02-13",
+	},
+}

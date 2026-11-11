@@ -1,0 +1,143 @@
+
+FishingBuddy_Info = {
+["FishTotals"] = {
+[1439003] = 10,
+[1453000] = 13,
+[1453001] = 13,
+[1440000] = 14,
+[1440001] = 14,
+[1439001] = 13,
+[1457000] = 31,
+[1457001] = 31,
+[1439002] = 13,
+[1439000] = 36,
+},
+["HiddenFishies"] = {
+},
+["FishingSkill"] = {
+[1439001] = 0,
+[1439002] = 0,
+[1439003] = 0,
+[1457001] = 0,
+[1440001] = 0,
+[1453001] = 0,
+},
+["DataFish"] = 0,
+["FishingHoles"] = {
+[1439001] = {
+[6361] = 5,
+[6358] = 2,
+[6303] = 4,
+[12238] = 2,
+},
+[1439002] = {
+[6361] = 5,
+[6303] = 3,
+[12238] = 5,
+},
+[1439003] = {
+[3820] = 7,
+[20709] = 2,
+[20708] = 1,
+},
+[1457001] = {
+[6289] = 19,
+[6308] = 6,
+[858] = 1,
+[6291] = 5,
+},
+[1440001] = {
+[6289] = 5,
+[6308] = 5,
+[21071] = 4,
+},
+[1453001] = {
+[6361] = 8,
+[6303] = 3,
+[6358] = 2,
+},
+},
+["Version"] = 1190400,
+["KnownZones"] = {
+[1440] = "Astranaar",
+[1453] = "Stormwind Harbor",
+[1439] = "Twilight Shore",
+[1457] = "Cenarion Enclave",
+},
+["SubZones"] = {
+[1439003] = "Twilight Shore",
+[1453000] = 1,
+[1453001] = "Stormwind Harbor",
+[1440000] = 1,
+[1440001] = "Astranaar",
+[1439001] = "Mist's Edge",
+[1457000] = 1,
+[1457001] = "Cenarion Enclave",
+[1439002] = "The Long Wash",
+[1439000] = 3,
+},
+["ImppDBLoaded"] = 0,
+["Fishies"] = {
+[6361] = {
+["enUS"] = "Raw Rainbow Fin Albacore",
+["texture"] = 133911,
+["quality"] = 1,
+},
+[6303] = {
+["enUS"] = "Raw Slitherskin Mackerel",
+["texture"] = 133910,
+["quality"] = 1,
+},
+[6289] = {
+["enUS"] = "Raw Longjaw Mud Snapper",
+["texture"] = 133918,
+["quality"] = 1,
+},
+[6291] = {
+["enUS"] = "Raw Brilliant Smallfish",
+["quality"] = 1,
+["texture"] = 133894,
+},
+[6308] = {
+["enUS"] = "Raw Bristle Whisker Catfish",
+["texture"] = 133916,
+["quality"] = 1,
+},
+[20708] = {
+["enUS"] = "Tightly Sealed Trunk",
+["quality"] = 1,
+["texture"] = 132594,
+},
+[3820] = {
+["enUS"] = "Stranglekelp",
+["quality"] = 1,
+["texture"] = 134191,
+},
+[20709] = {
+["enUS"] = "Rumsey Rum Light",
+["quality"] = 1,
+["texture"] = 132795,
+},
+[6358] = {
+["enUS"] = "Oily Blackmouth",
+["texture"] = 134302,
+["quality"] = 1,
+},
+[858] = {
+["enUS"] = "Lesser Healing Potion",
+["quality"] = 1,
+["texture"] = 134830,
+},
+[12238] = {
+["enUS"] = "Darkshore Grouper",
+["quality"] = 1,
+["texture"] = 133912,
+},
+[21071] = {
+["enUS"] = "Raw Sagefish",
+["texture"] = 133906,
+["quality"] = 1,
+},
+},
+["FishInfo2"] = 0,
+}

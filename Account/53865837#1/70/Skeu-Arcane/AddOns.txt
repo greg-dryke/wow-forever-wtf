@@ -1,0 +1,11 @@
+Auctionator: enabled
+FishingBuddy: enabled
+ForeverForge: enabled
+ForeverForge_Auction: enabled
+Leatrix_Plus: enabled
+Plater: enabled
+Questie: enabled
+QuestieDB: enabled
+RareScanner: enabled
+Blizzard_ObjectiveTracker: enabled
+Blizzard_CompactRaidFrames: enabled

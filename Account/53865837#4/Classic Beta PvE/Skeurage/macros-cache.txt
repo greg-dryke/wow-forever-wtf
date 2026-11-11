@@ -1,0 +1,31 @@
+VER 3 0000000001000004 "2" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [form:1]Mocking Blow;[form:2]Shockwave;[form:3]Berserker Rage
+/startattack
+END
+VER 3 0000000001000006 "hs" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [mod:ctrl] Cleave; Heroic Strike
+/stopcasting
+END
+VER 3 0000000001000002 "interrupt" "INV_MISC_QUESTIONMARK"
+#showtooltip [nostance:2] Pummel; Shield Bash
+/startattack
+/cast [noworn:shield,nostance:3] Berserker Stance
+/cast [@mouseover,harm,stance:3][stance:3] Pummel
+/cast [stance:1/2,worn:shield] Shield Bash
+END
+VER 3 0000000001000003 "q" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [form:1]Overpower;[form:2]Spell Reflection;[form:3]Whirlwind
+/startattack
+END
+VER 3 0000000001000001 "stance" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [mod:shift]Defensive Stance; [mod:ctrl]Berserker Stance; Battle Stance
+END
+VER 3 0000000001000005 "t" "INV_MISC_QUESTIONMARK"
+#showtooltip Taunt
+/cancelaura Greater Blessing of Salvation
+/cast [target=mouseover, exists] Taunt; Taunt
+END

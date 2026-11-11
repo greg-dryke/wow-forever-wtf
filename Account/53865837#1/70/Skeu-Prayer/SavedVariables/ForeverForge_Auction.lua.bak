@@ -1,0 +1,29 @@
+
+ForeverForgeAuctionCharDB = {
+["browse"] = {
+["suffixes"] = {
+},
+["options"] = {
+},
+["qualities"] = {
+},
+},
+["ownedPrices"] = {
+[45552885] = {
+["commodity"] = false,
+["qty"] = 1,
+["item"] = "Formula: Enchant Shield - Stamina",
+["unit"] = 159900,
+},
+},
+["lastTab"] = "browse",
+["soldSeen"] = {
+},
+["sniper"] = {
+["skip"] = {
+},
+["targets"] = {
+},
+},
+["lastUI"] = "ours",
+}
