@@ -8,11 +8,13 @@ WT_PriceFaction = "auto"
 WT_HideWeaponSkillSwitcher = false
 WT_Crafting = {
 ["settings"] = {
-["showMerchantsFavorRecipes"] = false,
 ["showOtherFactionRecipes"] = false,
+["showMerchantsFavorRecipes"] = false,
 ["showReputationRecipes"] = false,
 },
 ["selectedProfessions"] = {
+[186] = true,
+[393] = true,
 },
 ["expandedProfessions"] = {
 {

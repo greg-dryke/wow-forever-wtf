@@ -4,7 +4,7 @@ OPie_SavedData = {
 },
 ["_OPieVersion"] = "8.10.2 (4.145)",
 ["_StoreVersion"] = 122,
-["_GameLocale"] = "enUS",
+["_GameVersion"] = "1.60.1",
 ["_StoreVersion2"] = 122,
 ["ProfileStorage"] = {
 ["default"] = {
@@ -17,21 +17,21 @@ OPie_SavedData = {
 ["RingKeeper"] = {
 ["buffs"] = {
 {
-["id"] = 6756,
 ["sliceToken"] = "ABueUtGVQIw",
+["id"] = 6756,
 },
 {
-["id"] = 782,
 ["sliceToken"] = "ABueUtGVQIe",
+["id"] = 782,
 },
+["name"] = "buffs",
 ["save"] = true,
 ["limit"] = "DRUID",
-["name"] = "buffs",
 },
 ["OPieFlagStore"] = {
 ["StoreVersion"] = 3,
 },
 },
 },
-["_GameVersion"] = "1.60.1",
+["_GameLocale"] = "enUS",
 }

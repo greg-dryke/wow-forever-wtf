@@ -3,10 +3,11 @@ TomTomDB = {
 ["profileKeys"] = {
 ["Skeu Wilds"] = "Default",
 ["Skeuomorph Cow"] = "Default",
+["Banker Macbanks"] = "Default",
 ["Banky Macbanks"] = "Default",
 ["Skeu Light"] = "Default",
+["Skeu Arcana"] = "Default",
 ["Skeu Prayer"] = "Default",
-["Banker Macbanks"] = "Default",
 },
 ["profiles"] = {
 ["Default"] = {
@@ -19,11 +20,6 @@ nil,
 0,
 },
 },
-["paste"] = {
-["button"] = {
-["showInCompartment"] = true,
-},
-},
 ["block"] = {
 ["position"] = {
 "BOTTOMLEFT",
@@ -33,33 +29,41 @@ nil,
 0,
 },
 },
+["paste"] = {
+["button"] = {
+["showInCompartment"] = true,
+},
+},
 },
 },
 }
 TomTomWaypointsM = {
-["global"] = {
-["pinFlagsLive"] = true,
-},
 ["profileKeys"] = {
 ["Skeu Wilds"] = "Skeu Wilds",
 ["Skeuomorph Cow"] = "Skeuomorph Cow",
+["Banker Macbanks"] = "Banker Macbanks",
 ["Banky Macbanks"] = "Banky Macbanks",
 ["Skeu Light"] = "Skeu Light",
+["Skeu Arcana"] = "Skeu Arcana",
 ["Skeu Prayer"] = "Skeu Prayer",
-["Banker Macbanks"] = "Banker Macbanks",
+},
+["global"] = {
+["pinFlagsLive"] = true,
 },
 ["profiles"] = {
 ["Skeu Wilds"] = {
 },
 ["Skeuomorph Cow"] = {
 },
+["Banker Macbanks"] = {
+},
 ["Banky Macbanks"] = {
 },
 ["Skeu Light"] = {
 },
-["Skeu Prayer"] = {
+["Skeu Arcana"] = {
 },
-["Banker Macbanks"] = {
+["Skeu Prayer"] = {
 },
 },
 }

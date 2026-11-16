@@ -4,7 +4,7 @@ OPie_SavedData = {
 },
 ["_OPieVersion"] = "8.10.2 (4.145)",
 ["_StoreVersion"] = 122,
-["_GameVersion"] = "1.60.1",
+["_GameLocale"] = "enUS",
 ["_StoreVersion2"] = 122,
 ["ProfileStorage"] = {
 ["default"] = {
@@ -24,14 +24,14 @@ OPie_SavedData = {
 ["sliceToken"] = "ABueUtGVQIe",
 ["id"] = 782,
 },
-["name"] = "buffs",
-["save"] = true,
 ["limit"] = "DRUID",
+["save"] = true,
+["name"] = "buffs",
 },
 ["OPieFlagStore"] = {
 ["StoreVersion"] = 3,
 },
 },
 },
-["_GameLocale"] = "enUS",
+["_GameVersion"] = "1.60.1",
 }

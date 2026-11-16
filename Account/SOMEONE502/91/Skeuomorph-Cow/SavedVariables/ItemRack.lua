@@ -4,7 +4,7 @@ ItemRackUser = {
 ["LastAudit"] = {
 ["Details"] = {
 },
-["Timestamp"] = "2026-11-11 02:35:09",
+["Timestamp"] = "2026-11-14 21:47:06",
 ["FixedCount"] = 0,
 ["IssuesFound"] = 0,
 },
@@ -23,11 +23,124 @@ ItemRackUser = {
 "ItemRackUser.EventStack was missing. Initialized. (AUTO-FIXED)",
 },
 ["Timestamp"] = "2026-11-05 10:18:31",
-["FixedCount"] = 1,
 ["IssuesFound"] = 1,
+["FixedCount"] = 1,
 },
 ["Equip20Scale"] = 1,
 ["OptSizeBigger"] = "OFF",
+["Events"] = {
+["Enabled"] = {
+},
+["Set"] = {
+},
+["ScriptApprovals"] = {
+["Swimming"] = {
+["Type"] = "Script",
+["Script"] = "local set = \"swimcloak\"\nif IsSwimming() and not IsSetEquipped(set) then\n  EquipEventSet(set)\n  if not SwimmingEvent then\n    function SwimmingEvent()\n      if not IsSwimming() then\n        ItemRack.StopTimer(\"SwimmingEvent\")\n        UnequipEventSet()\n      end\n    end\n    ItemRack.CreateTimer(\"SwimmingEvent\",SwimmingEvent,.5,1)\n  end\n  ItemRack.StartTimer(\"SwimmingEvent\")\nend\n--[[Equips a set when swimming and breath gauge appears and unequips soon after you stop swimming.]]",
+["ApprovedBy"] = "interface",
+["Trigger"] = "MIRROR_TIMER_START",
+["Event"] = "Swimming",
+},
+},
+},
+["OptScale"] = 1,
+["OptSizeBiggest"] = "OFF",
+["Queues"] = {
+},
+["EventStateMigrationVersion"] = 1,
+["BurntQueueItems"] = {
+},
+["QueuesEnabled"] = {
+},
+["EnableEvents"] = "ON",
+["BreakoutSpacing"] = 4,
+["Locked"] = "OFF",
+["OptSizeDefault"] = "ON",
+["CharMenuWrapValue"] = 3,
+["SetMenuWrapValue"] = 3,
+["QueueMigrationReport"] = {
+["entriesQuarantined"] = 0,
+["toVersion"] = 2,
+["legacySettingsAvailable"] = false,
+["enabledValuesVisited"] = 0,
+["queuesVisited"] = 0,
+["slotKeysNormalized"] = 0,
+["boundariesInserted"] = 0,
+["enabledValuesChanged"] = 0,
+["queuesQuarantined"] = 0,
+["fromVersion"] = 2,
+["enabledValuesQuarantined"] = 0,
+["entriesChanged"] = 0,
+["entriesVisited"] = 0,
+["queuesCompacted"] = 0,
+["slotKeysQuarantined"] = 0,
+},
+["EquipTimers"] = {
+},
+["CurrentSet"] = "swimcloak",
+["Hidden"] = {
+"swimcloak",
+},
+["EnableQueues"] = "ON",
+["QuickAccessMenuSide"] = "Saved",
+["EnablePerSetQueues"] = "OFF",
+["QueueSchemaVersion"] = 2,
+["QueueMigrationBackup"] = {
+["globalEnabled"] = {
+},
+["global"] = {
+},
+["sets"] = {
+},
+["capturedAt"] = 1793895511,
+["setsEnabled"] = {
+},
+},
+["EventStack"] = {
+},
+["Buttons"] = {
+[15] = {
+["Top"] = 34.65651702880859,
+["MainDock"] = "TOPLEFT",
+["Left"] = 1249.609985351563,
+["MenuDock"] = "BOTTOMLEFT",
+},
+},
+["EventState"] = {
+["revision"] = 6,
+["byEvent"] = {
+},
+["order"] = {
+},
+["schema"] = 1,
+["frames"] = {
+},
+["nextFrameId"] = 4,
+},
+["LegacyEventStateBackup"] = {
+["eventSets"] = {
+},
+["activeEvents"] = {
+},
+["events"] = {
+},
+["capturedFrom"] = "v4.58",
+["eventStack"] = {
+},
+["sets"] = {
+},
+},
+["EventStateMigrationReport"] = {
+["slotsMigrated"] = 0,
+["source"] = "none",
+["candidates"] = 0,
+["slotsWithoutPrior"] = 0,
+["issues"] = {
+},
+["framesMigrated"] = 0,
+["slotsReleasedForMismatch"] = 0,
+},
+["MenuScale"] = 0.85,
 ["Sets"] = {
 ["~BaseGear"] = {
 ["equip"] = {
@@ -100,120 +213,6 @@ nil,
 ["~Unequip"] = {
 ["equip"] = {
 },
-},
-},
-["OptScale"] = 1,
-["OptSizeBiggest"] = "OFF",
-["Queues"] = {
-},
-["EventStateMigrationReport"] = {
-["slotsMigrated"] = 0,
-["source"] = "none",
-["slotsReleasedForMismatch"] = 0,
-["slotsWithoutPrior"] = 0,
-["issues"] = {
-},
-["framesMigrated"] = 0,
-["candidates"] = 0,
-},
-["LegacyEventStateBackup"] = {
-["eventSets"] = {
-},
-["activeEvents"] = {
-},
-["events"] = {
-},
-["capturedFrom"] = "v4.58",
-["eventStack"] = {
-},
-["sets"] = {
-},
-},
-["QueuesEnabled"] = {
-},
-["EventState"] = {
-["revision"] = 6,
-["schema"] = 1,
-["order"] = {
-},
-["frames"] = {
-},
-["byEvent"] = {
-},
-["nextFrameId"] = 4,
-},
-["BreakoutSpacing"] = 4,
-["Locked"] = "OFF",
-["Buttons"] = {
-[15] = {
-["Top"] = 31.88895225524902,
-["MainDock"] = "TOPLEFT",
-["Left"] = 1354.223022460938,
-["MenuDock"] = "BOTTOMLEFT",
-},
-},
-["EventStack"] = {
-},
-["QueueMigrationBackup"] = {
-["globalEnabled"] = {
-},
-["global"] = {
-},
-["sets"] = {
-},
-["capturedAt"] = 1793895511,
-["setsEnabled"] = {
-},
-},
-["Hidden"] = {
-"swimcloak",
-},
-["EquipTimers"] = {
-},
-["SetMenuWrapValue"] = 3,
-["EnablePerSetQueues"] = "OFF",
-["QuickAccessMenuSide"] = "Saved",
-["EnableQueues"] = "ON",
-["QueueMigrationReport"] = {
-["entriesQuarantined"] = 0,
-["toVersion"] = 2,
-["legacySettingsAvailable"] = false,
-["enabledValuesVisited"] = 0,
-["queuesVisited"] = 0,
-["slotKeysNormalized"] = 0,
-["boundariesInserted"] = 0,
-["enabledValuesChanged"] = 0,
-["queuesQuarantined"] = 0,
-["fromVersion"] = 2,
-["enabledValuesQuarantined"] = 0,
-["entriesChanged"] = 0,
-["entriesVisited"] = 0,
-["queuesCompacted"] = 0,
-["slotKeysQuarantined"] = 0,
-},
-["QueueSchemaVersion"] = 2,
-["CurrentSet"] = "swimcloak",
-["CharMenuWrapValue"] = 3,
-["OptSizeDefault"] = "ON",
-["EnableEvents"] = "ON",
-["BurntQueueItems"] = {
-},
-["EventStateMigrationVersion"] = 1,
-["MenuScale"] = 0.85,
-["Events"] = {
-["Enabled"] = {
-["Swimming"] = true,
-},
-["ScriptApprovals"] = {
-["Swimming"] = {
-["Type"] = "Script",
-["Script"] = "local set = \"swimcloak\"\nif IsSwimming() and not IsSetEquipped(set) then\n  EquipEventSet(set)\n  if not SwimmingEvent then\n    function SwimmingEvent()\n      if not IsSwimming() then\n        ItemRack.StopTimer(\"SwimmingEvent\")\n        UnequipEventSet()\n      end\n    end\n    ItemRack.CreateTimer(\"SwimmingEvent\",SwimmingEvent,.5,1)\n  end\n  ItemRack.StartTimer(\"SwimmingEvent\")\nend\n--[[Equips a set when swimming and breath gauge appears and unequips soon after you stop swimming.]]",
-["ApprovedBy"] = "interface",
-["Trigger"] = "MIRROR_TIMER_START",
-["Event"] = "Swimming",
-},
-},
-["Set"] = {
 },
 },
 }

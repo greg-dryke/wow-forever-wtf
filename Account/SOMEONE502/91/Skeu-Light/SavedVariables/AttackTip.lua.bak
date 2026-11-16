@@ -19,7 +19,6 @@ AttackTip_SavedState = {
 ["heal"] = 0,
 ["offhandMin"] = 8.785715103149414,
 ["swingTime"] = 3.300000190734863,
-["weaponSpeed"] = 3.3,
 ["rangedMax"] = 0,
 ["weaponMax"] = 63.34286117553711,
 ["attackPower"] = 116,

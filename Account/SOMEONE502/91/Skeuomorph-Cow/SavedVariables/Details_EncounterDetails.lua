@@ -1,7 +1,7 @@
 
 EncounterDetailsDB = {
 ["chartData"] = {
-[12] = {
+[20] = {
 },
 },
 ["encounter_spells"] = {

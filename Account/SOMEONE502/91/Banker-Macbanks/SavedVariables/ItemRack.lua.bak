@@ -4,7 +4,7 @@ ItemRackUser = {
 ["LastAudit"] = {
 ["Details"] = {
 },
-["Timestamp"] = "2026-11-11 00:46:44",
+["Timestamp"] = "2026-11-13 20:48:31",
 ["FixedCount"] = 0,
 ["IssuesFound"] = 0,
 },
@@ -23,42 +23,27 @@ ItemRackUser = {
 "ItemRackUser.EventStack was missing. Initialized. (AUTO-FIXED)",
 },
 ["Timestamp"] = "2026-11-05 12:52:05",
-["FixedCount"] = 1,
 ["IssuesFound"] = 1,
+["FixedCount"] = 1,
 },
 ["Equip20Scale"] = 1,
 ["OptSizeBigger"] = "OFF",
 ["OptScale"] = 1,
 ["OptSizeBiggest"] = "OFF",
-["Sets"] = {
-["~CombatQueue"] = {
-["equip"] = {
+["Events"] = {
+["Enabled"] = {
 },
+["Set"] = {
 },
-["~BaseGear"] = {
-["equip"] = {
-},
-["old"] = {
-},
-},
-["~Unequip"] = {
-["equip"] = {
-},
+["ScriptApprovals"] = {
 },
 },
 ["Queues"] = {
 },
-["EventStateMigrationReport"] = {
-["slotsMigrated"] = 0,
-["source"] = "none",
-["slotsReleasedForMismatch"] = 0,
-["slotsWithoutPrior"] = 0,
-["issues"] = {
-},
-["framesMigrated"] = 0,
-["candidates"] = 0,
-},
+["EventStateMigrationVersion"] = 1,
 ["QueuesEnabled"] = {
+},
+["BurntQueueItems"] = {
 },
 ["EventState"] = {
 ["revision"] = 0,
@@ -71,8 +56,51 @@ ItemRackUser = {
 },
 ["nextFrameId"] = 1,
 },
-["BreakoutSpacing"] = 4,
 ["Locked"] = "OFF",
+["EnableEvents"] = "ON",
+["OptSizeDefault"] = "ON",
+["CharMenuWrapValue"] = 3,
+["QueueMigrationReport"] = {
+["entriesQuarantined"] = 0,
+["toVersion"] = 2,
+["legacySettingsAvailable"] = false,
+["enabledValuesVisited"] = 0,
+["queuesVisited"] = 0,
+["slotKeysNormalized"] = 0,
+["boundariesInserted"] = 0,
+["enabledValuesChanged"] = 0,
+["queuesQuarantined"] = 0,
+["fromVersion"] = 2,
+["enabledValuesQuarantined"] = 0,
+["entriesChanged"] = 0,
+["entriesVisited"] = 0,
+["queuesCompacted"] = 0,
+["slotKeysQuarantined"] = 0,
+},
+["EquipTimers"] = {
+},
+["SetMenuWrapValue"] = 3,
+["EnableQueues"] = "ON",
+["EnablePerSetQueues"] = "OFF",
+["QuickAccessMenuSide"] = "Saved",
+["Hidden"] = {
+},
+["QueueSchemaVersion"] = 2,
+["QueueMigrationBackup"] = {
+["globalEnabled"] = {
+},
+["global"] = {
+},
+["sets"] = {
+},
+["capturedAt"] = 1793904725,
+["setsEnabled"] = {
+},
+},
+["EventStack"] = {
+},
+["Buttons"] = {
+},
 ["LegacyEventStateBackup"] = {
 ["eventSets"] = {
 },
@@ -123,8 +151,9 @@ ItemRackUser = {
 ["Unequip"] = 1,
 ["Type"] = "Specialization",
 },
-["Druid Travel"] = {
-["Type"] = "Stance",
+["Drinking"] = {
+["Unequip"] = 1,
+["Type"] = "Buff",
 },
 ["Buffs Gained"] = {
 ["Type"] = "Script",
@@ -133,9 +162,8 @@ ItemRackUser = {
 ["Unequip"] = 1,
 ["Type"] = "Specialization",
 },
-["Drinking"] = {
-["Unequip"] = 1,
-["Type"] = "Buff",
+["Druid Travel"] = {
+["Type"] = "Stance",
 },
 },
 ["capturedFrom"] = "v4.58",
@@ -144,66 +172,32 @@ ItemRackUser = {
 ["sets"] = {
 },
 },
-["Buttons"] = {
+["BreakoutSpacing"] = 4,
+["EventStateMigrationReport"] = {
+["slotsMigrated"] = 0,
+["source"] = "none",
+["candidates"] = 0,
+["slotsWithoutPrior"] = 0,
+["issues"] = {
 },
-["EventStack"] = {
+["framesMigrated"] = 0,
+["slotsReleasedForMismatch"] = 0,
 },
-["QueueMigrationBackup"] = {
-["globalEnabled"] = {
-},
-["global"] = {
-},
-["sets"] = {
-},
-["capturedAt"] = 1793904725,
-["setsEnabled"] = {
-},
-},
-["EquipTimers"] = {
-[0] = {
-["id"] = "2516::::::::1:1485:::::::::",
-["used"] = true,
-["time"] = 92160.359,
-["hasPenalty"] = false,
-},
-},
-["SetMenuWrapValue"] = 3,
-["Hidden"] = {
-},
-["EnableQueues"] = "ON",
-["QuickAccessMenuSide"] = "Saved",
-["EnablePerSetQueues"] = "OFF",
-["QueueSchemaVersion"] = 2,
-["QueueMigrationReport"] = {
-["entriesQuarantined"] = 0,
-["toVersion"] = 2,
-["legacySettingsAvailable"] = false,
-["enabledValuesVisited"] = 0,
-["queuesVisited"] = 0,
-["slotKeysNormalized"] = 0,
-["boundariesInserted"] = 0,
-["enabledValuesChanged"] = 0,
-["queuesQuarantined"] = 0,
-["fromVersion"] = 2,
-["enabledValuesQuarantined"] = 0,
-["entriesChanged"] = 0,
-["entriesVisited"] = 0,
-["queuesCompacted"] = 0,
-["slotKeysQuarantined"] = 0,
-},
-["CharMenuWrapValue"] = 3,
-["OptSizeDefault"] = "ON",
-["EnableEvents"] = "ON",
-["BurntQueueItems"] = {
-},
-["EventStateMigrationVersion"] = 1,
 ["MenuScale"] = 0.85,
-["Events"] = {
-["Enabled"] = {
+["Sets"] = {
+["~CombatQueue"] = {
+["equip"] = {
 },
-["ScriptApprovals"] = {
 },
-["Set"] = {
+["~BaseGear"] = {
+["equip"] = {
+},
+["old"] = {
+},
+},
+["~Unequip"] = {
+["equip"] = {
+},
 },
 },
 }

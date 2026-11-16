@@ -6,3 +6,4 @@ ForeverForge: disabled
 ForeverForge_Auction: disabled
 Bagnon_Bank: enabled
 ItemRackOptions: enabled
+GearQuestForever: disabled

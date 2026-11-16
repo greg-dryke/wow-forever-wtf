@@ -1,14 +1,14 @@
 
 AtlasLootClassicDB = {
-["global"] = {
-["__addonrevision"] = 1030003,
-},
 ["profileKeys"] = {
 ["Skeuomorph - CAMWOW US2 Realm 3 PvE"] = "Skeuomorph - CAMWOW US2 Realm 3 PvE",
 ["Banker - CAMWOW US2 Realm 3 PvE"] = "Banker - CAMWOW US2 Realm 3 PvE",
-["Skeu - CAMWOW US2 Realm 3 PvE"] = "Skeu - CAMWOW US2 Realm 3 PvE",
-["Skeu - CAMWOW US2 Realm 6 PvP"] = "Skeu - CAMWOW US2 Realm 6 PvP",
 ["Banky - CAMWOW US2 Realm 3 PvE"] = "Banky - CAMWOW US2 Realm 3 PvE",
+["Skeu - CAMWOW US2 Realm 6 PvP"] = "Skeu - CAMWOW US2 Realm 6 PvP",
+["Skeu - CAMWOW US2 Realm 3 PvE"] = "Skeu - CAMWOW US2 Realm 3 PvE",
+},
+["global"] = {
+["__addonrevision"] = 1030003,
 },
 ["profiles"] = {
 ["Skeuomorph - CAMWOW US2 Realm 3 PvE"] = {
@@ -17,16 +17,16 @@ AtlasLootClassicDB = {
 },
 ["GUI"] = {
 ["point"] = {
-"TOP",
+"TOPLEFT",
 nil,
-"TOP",
-236.9999847412109,
--116.5555572509766,
+"TOPLEFT",
+34.50534820556641,
+-73.8709945678711,
 },
 ["selected"] = {
 nil,
-"BlackfathomDeeps",
-3,
+"WailingCaverns",
+2,
 1,
 0,
 },
@@ -50,6 +50,13 @@ nil,
 },
 },
 },
+["Banky - CAMWOW US2 Realm 3 PvE"] = {
+},
+["Skeu - CAMWOW US2 Realm 6 PvP"] = {
+["GUI"] = {
+["selectedGameVersion"] = 1,
+},
+},
 ["Skeu - CAMWOW US2 Realm 3 PvE"] = {
 ["GUI"] = {
 ["selected"] = {
@@ -60,13 +67,6 @@ nil,
 0,
 },
 },
-},
-["Skeu - CAMWOW US2 Realm 6 PvP"] = {
-["GUI"] = {
-["selectedGameVersion"] = 1,
-},
-},
-["Banky - CAMWOW US2 Realm 3 PvE"] = {
 },
 },
 }

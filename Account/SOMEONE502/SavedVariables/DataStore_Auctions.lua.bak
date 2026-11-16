@@ -1,13 +1,14 @@
 
 DataStore_Auctions_Characters = {
 {
-["lastUpdate"] = 1794364263,
-["lastVisitDate"] = "2026/11/10 20:31",
+["lastUpdate"] = 1794637021,
+["lastAuctionsScan"] = 1794631725,
+["lastVisitDate"] = "2026/11/13 22:17",
 },
 {
-["lastUpdate"] = 1794382233,
+["lastUpdate"] = 1794634417,
 ["lastAuctionsScan"] = 1794379815,
-["lastVisitDate"] = "2026/11/11 01:30",
+["lastVisitDate"] = "2026/11/13 21:33",
 },
 {
 ["lastUpdate"] = 1794385943,
@@ -16,6 +17,10 @@ DataStore_Auctions_Characters = {
 {
 ["lastUpdate"] = 1794378562,
 ["lastVisitDate"] = "2026/11/11 00:29",
+},
+{
+},
+{
 },
 }
 DataStore_Auctions_AuctionsList = {

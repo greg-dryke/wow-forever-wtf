@@ -6,7 +6,8 @@ GearQuestForeverDB = {
 ["hiddenProfessions"] = {
 },
 ["portraitGuideSeen"] = true,
-["hiddenVendors"] = {
+["hiddenSources"] = {
+["unsourced"] = true,
 },
 ["portraitGuideVersion"] = 8,
 ["unsourcedDefaulted"] = true,
@@ -22,8 +23,7 @@ GearQuestForeverDB = {
 },
 ["hiddenTrashDungeons"] = {
 },
-["hiddenSources"] = {
-["unsourced"] = true,
+["hiddenVendors"] = {
 },
 },
 ["dismissedCompleted"] = {
@@ -35,16 +35,6 @@ GearQuestForeverDB = {
 ["specSwitch"] = true,
 ["ringSlot2"] = true,
 },
-["minimapAngle"] = -166.8283777680224,
-["preview"] = {
-["enabled"] = false,
-["faction"] = "Horde",
-["level"] = 11,
-["class"] = "PALADIN",
-["loginCharacterKey"] = "Player-6929-01872571",
-},
-["completedItemBackup"] = {
-},
 ["weaponFilter"] = {
 ["play:DRUID:feral"] = {
 },
@@ -55,6 +45,16 @@ GearQuestForeverDB = {
 ["play:PALADIN:retribution"] = {
 },
 },
+["preview"] = {
+["enabled"] = false,
+["faction"] = "Horde",
+["level"] = 30,
+["loginCharacterKey"] = "Player-6929-00D6FCC8",
+["class"] = "DRUID",
+},
+["completedItemBackup"] = {
+},
+["minimapAngle"] = -166.8283777680224,
 },
 ["obtainedItems"] = {
 },

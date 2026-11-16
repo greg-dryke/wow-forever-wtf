@@ -20,7 +20,6 @@ VER 3 0000000000000007 "ns+ht" "134400"
 /cast [@mouseover,help,nodead,exists] [] Healing Touch
 END
 VER 3 0000000000000005 "RS_MACRO" "667492"
-/targetexact Soboz
 END
 VER 3 0000000000000002 "seals" "134400"
 #showtooltip

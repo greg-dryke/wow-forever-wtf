@@ -4,7 +4,7 @@ ItemRackUser = {
 ["LastAudit"] = {
 ["Details"] = {
 },
-["Timestamp"] = "2026-11-11 00:07:42",
+["Timestamp"] = "2026-11-11 02:34:43",
 ["FixedCount"] = 0,
 ["IssuesFound"] = 0,
 },
@@ -23,56 +23,74 @@ ItemRackUser = {
 "ItemRackUser.EventStack was missing. Initialized. (AUTO-FIXED)",
 },
 ["Timestamp"] = "2026-11-07 01:03:26",
-["FixedCount"] = 1,
 ["IssuesFound"] = 1,
+["FixedCount"] = 1,
 },
 ["Equip20Scale"] = 1,
 ["OptSizeBigger"] = "OFF",
 ["OptScale"] = 1,
 ["OptSizeBiggest"] = "OFF",
-["Sets"] = {
-["~CombatQueue"] = {
-["equip"] = {
+["Events"] = {
+["Enabled"] = {
 },
+["Set"] = {
 },
-["~BaseGear"] = {
-["equip"] = {
-},
-["old"] = {
-},
-},
-["~Unequip"] = {
-["equip"] = {
-},
+["ScriptApprovals"] = {
 },
 },
 ["Queues"] = {
 },
-["EventStateMigrationReport"] = {
-["slotsMigrated"] = 0,
-["source"] = "none",
-["slotsReleasedForMismatch"] = 0,
-["slotsWithoutPrior"] = 0,
-["issues"] = {
-},
-["framesMigrated"] = 0,
-["candidates"] = 0,
-},
+["EventStateMigrationVersion"] = 1,
 ["QueuesEnabled"] = {
 },
+["BurntQueueItems"] = {
+},
 ["BreakoutSpacing"] = 4,
-["EventState"] = {
-["revision"] = 0,
-["frames"] = {
-},
-["order"] = {
-},
-["byEvent"] = {
-},
-["schema"] = 1,
-["nextFrameId"] = 1,
-},
 ["Locked"] = "OFF",
+["EnableEvents"] = "ON",
+["OptSizeDefault"] = "ON",
+["CharMenuWrapValue"] = 3,
+["EnableQueues"] = "ON",
+["EquipTimers"] = {
+},
+["SetMenuWrapValue"] = 3,
+["Hidden"] = {
+},
+["QueueMigrationReport"] = {
+["entriesQuarantined"] = 0,
+["toVersion"] = 2,
+["legacySettingsAvailable"] = false,
+["enabledValuesVisited"] = 0,
+["queuesVisited"] = 0,
+["slotKeysNormalized"] = 0,
+["boundariesInserted"] = 0,
+["enabledValuesChanged"] = 0,
+["queuesQuarantined"] = 0,
+["fromVersion"] = 2,
+["enabledValuesQuarantined"] = 0,
+["entriesChanged"] = 0,
+["entriesVisited"] = 0,
+["queuesCompacted"] = 0,
+["slotKeysQuarantined"] = 0,
+},
+["QuickAccessMenuSide"] = "Saved",
+["EnablePerSetQueues"] = "OFF",
+["QueueSchemaVersion"] = 2,
+["QueueMigrationBackup"] = {
+["globalEnabled"] = {
+},
+["global"] = {
+},
+["sets"] = {
+},
+["capturedAt"] = 1794035006,
+["setsEnabled"] = {
+},
+},
+["EventStack"] = {
+},
+["Buttons"] = {
+},
 ["LegacyEventStateBackup"] = {
 ["eventSets"] = {
 },
@@ -123,8 +141,9 @@ ItemRackUser = {
 ["Unequip"] = 1,
 ["Type"] = "Specialization",
 },
-["Druid Travel"] = {
-["Type"] = "Stance",
+["Drinking"] = {
+["Unequip"] = 1,
+["Type"] = "Buff",
 },
 ["Buffs Gained"] = {
 ["Type"] = "Script",
@@ -133,9 +152,8 @@ ItemRackUser = {
 ["Unequip"] = 1,
 ["Type"] = "Specialization",
 },
-["Drinking"] = {
-["Unequip"] = 1,
-["Type"] = "Buff",
+["Druid Travel"] = {
+["Type"] = "Stance",
 },
 },
 ["capturedFrom"] = "v4.58",
@@ -144,72 +162,42 @@ ItemRackUser = {
 ["sets"] = {
 },
 },
-["Buttons"] = {
+["EventState"] = {
+["revision"] = 0,
+["byEvent"] = {
 },
-["EventStack"] = {
+["order"] = {
 },
-["QueueMigrationBackup"] = {
-["globalEnabled"] = {
+["schema"] = 1,
+["frames"] = {
 },
-["global"] = {
+["nextFrameId"] = 1,
 },
-["sets"] = {
+["EventStateMigrationReport"] = {
+["slotsMigrated"] = 0,
+["source"] = "none",
+["candidates"] = 0,
+["slotsWithoutPrior"] = 0,
+["issues"] = {
 },
-["capturedAt"] = 1794035006,
-["setsEnabled"] = {
+["framesMigrated"] = 0,
+["slotsReleasedForMismatch"] = 0,
 },
-},
-["EquipTimers"] = {
-[8] = {
-["id"] = "281285::::::::11:1486::11:::::::",
-["used"] = true,
-["time"] = 90888.196,
-["hasPenalty"] = false,
-},
-[15] = {
-["id"] = "3833::::::::11:1486::11:::::::",
-["used"] = true,
-["time"] = 90741.276,
-["hasPenalty"] = false,
-},
-},
-["SetMenuWrapValue"] = 3,
-["EnablePerSetQueues"] = "OFF",
-["Hidden"] = {
-},
-["QuickAccessMenuSide"] = "Saved",
-["QueueMigrationReport"] = {
-["entriesQuarantined"] = 0,
-["toVersion"] = 2,
-["legacySettingsAvailable"] = false,
-["enabledValuesVisited"] = 0,
-["queuesVisited"] = 0,
-["slotKeysNormalized"] = 0,
-["boundariesInserted"] = 0,
-["enabledValuesChanged"] = 0,
-["queuesQuarantined"] = 0,
-["fromVersion"] = 2,
-["enabledValuesQuarantined"] = 0,
-["entriesChanged"] = 0,
-["entriesVisited"] = 0,
-["queuesCompacted"] = 0,
-["slotKeysQuarantined"] = 0,
-},
-["QueueSchemaVersion"] = 2,
-["EnableQueues"] = "ON",
-["CharMenuWrapValue"] = 3,
-["OptSizeDefault"] = "ON",
-["EnableEvents"] = "ON",
-["BurntQueueItems"] = {
-},
-["EventStateMigrationVersion"] = 1,
 ["MenuScale"] = 0.85,
-["Events"] = {
-["Enabled"] = {
+["Sets"] = {
+["~CombatQueue"] = {
+["equip"] = {
 },
-["ScriptApprovals"] = {
 },
-["Set"] = {
+["~BaseGear"] = {
+["equip"] = {
+},
+["old"] = {
+},
+},
+["~Unequip"] = {
+["equip"] = {
+},
 },
 },
 }

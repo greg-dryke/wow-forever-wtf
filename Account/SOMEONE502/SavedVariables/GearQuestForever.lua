@@ -6,13 +6,13 @@ GearQuestForeverDB = {
 ["hiddenProfessions"] = {
 },
 ["portraitGuideSeen"] = true,
-["hiddenSources"] = {
-["unsourced"] = true,
+["hiddenVendors"] = {
 },
 ["portraitGuideVersion"] = 8,
 ["unsourcedDefaulted"] = true,
 ["portraitGuideIntro"] = true,
-["hiddenDungeons"] = {
+["hiddenSources"] = {
+["unsourced"] = true,
 },
 ["collapsedSlots"] = {
 ["Finger"] = false,
@@ -23,7 +23,7 @@ GearQuestForeverDB = {
 },
 ["hiddenTrashDungeons"] = {
 },
-["hiddenVendors"] = {
+["hiddenDungeons"] = {
 },
 },
 ["dismissedCompleted"] = {
@@ -35,26 +35,28 @@ GearQuestForeverDB = {
 ["specSwitch"] = true,
 ["ringSlot2"] = true,
 },
+["minimapAngle"] = -166.8283777680224,
+["preview"] = {
+["enabled"] = false,
+["faction"] = "Horde",
+["level"] = 1,
+["class"] = "MAGE",
+["loginCharacterKey"] = "Player-6929-03194940",
+},
 ["weaponFilter"] = {
+["play:PALADIN:retribution"] = {
+},
+["play:PRIEST:shadow"] = {
+},
+["play:MAGE:frost"] = {
+},
 ["play:DRUID:feral"] = {
 },
 ["play:HUNTER:beast_mastery"] = {
 },
-["play:PRIEST:shadow"] = {
-},
-["play:PALADIN:retribution"] = {
-},
-},
-["preview"] = {
-["enabled"] = false,
-["faction"] = "Horde",
-["level"] = 28,
-["loginCharacterKey"] = "Player-6929-00D6FCC8",
-["class"] = "DRUID",
 },
 ["completedItemBackup"] = {
 },
-["minimapAngle"] = -166.8283777680224,
 },
 ["obtainedItems"] = {
 },

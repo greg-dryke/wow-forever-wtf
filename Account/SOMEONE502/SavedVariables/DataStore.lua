@@ -1,29 +1,33 @@
 
 DataStore_GuildIDs = {
-["List"] = {
-"Default.CAMWOW US2 Realm 3 PvE.Only Moos",
-},
-["Count"] = 1,
 ["Set"] = {
 ["Default.CAMWOW US2 Realm 3 PvE.Only Moos"] = 1,
+},
+["Count"] = 1,
+["List"] = {
+"Default.CAMWOW US2 Realm 3 PvE.Only Moos",
 },
 }
 DataStore_GuildFactions = {
 "Horde",
 }
 DataStore_CharacterIDs = {
+["Set"] = {
+["Default.CAMWOW US2 Realm 3 PvE.Banker Macbanks"] = 1,
+["Default.CAMWOW US2 Realm 3 PvE.Skeu Wilds"] = 5,
+["Default.CAMWOW US2 Realm 3 PvE.Skeu Arcana"] = 6,
+["Default.CAMWOW US2 Realm 3 PvE.Skeuomorph Cow"] = 2,
+["Default.CAMWOW US2 Realm 3 PvE.Skeu Light"] = 4,
+["Default.CAMWOW US2 Realm 3 PvE.Skeu Prayer"] = 3,
+},
+["Count"] = 6,
 ["List"] = {
 "Default.CAMWOW US2 Realm 3 PvE.Banker Macbanks",
 "Default.CAMWOW US2 Realm 3 PvE.Skeuomorph Cow",
 "Default.CAMWOW US2 Realm 3 PvE.Skeu Prayer",
 "Default.CAMWOW US2 Realm 3 PvE.Skeu Light",
-},
-["Count"] = 4,
-["Set"] = {
-["Default.CAMWOW US2 Realm 3 PvE.Skeuomorph Cow"] = 2,
-["Default.CAMWOW US2 Realm 3 PvE.Skeu Prayer"] = 3,
-["Default.CAMWOW US2 Realm 3 PvE.Banker Macbanks"] = 1,
-["Default.CAMWOW US2 Realm 3 PvE.Skeu Light"] = 4,
+"Default.CAMWOW US2 Realm 3 PvE.Skeu Wilds",
+"Default.CAMWOW US2 Realm 3 PvE.Skeu Arcana",
 },
 }
 DataStore_CharacterGUIDs = {
@@ -31,6 +35,8 @@ DataStore_CharacterGUIDs = {
 "Player-6929-00D6FCC8",
 "Player-6929-01A2A1AF",
 "Player-6929-01872571",
+"Player-6929-01A29B2E",
+"Player-6929-03194940",
 }
 DataStore_CharacterGuilds = {
 [2] = 1,

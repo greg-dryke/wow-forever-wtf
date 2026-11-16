@@ -21,7 +21,7 @@ Details_Vanguard: enabled
 FishingBuddy: enabled
 ForeverForge: disabled
 ForeverForge_Auction: disabled
-GearQuestForever: enabled
+GearQuestForever: disabled
 GearQuestForever_DRUID: enabled
 GearQuestForever_HUNTER: enabled
 GearQuestForever_MAGE: enabled
